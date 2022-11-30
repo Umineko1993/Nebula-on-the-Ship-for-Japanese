@@ -1,5 +1,6 @@
-# Nebula-on-the-Ship-for-Japanese
+# Nebula on the Ship for Japanese
 Nebula on the Shipの日本語化ファイル
+https://github.com/Dolly1016/Nebula/ のMODを日本語化しています
 
 導入の際は、Modフォルダ内のLanguageフォルダ内に各自保存して下さい
 MOD本体の翻訳を実施する場合は、Japanese.datをLanguageフォルダ内に保存して下さい
