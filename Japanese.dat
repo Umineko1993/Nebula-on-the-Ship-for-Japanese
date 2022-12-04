@@ -12,7 +12,7 @@
 
 "config.debug.snapshot" : "開発版を使用"
 "config.debug.outputHash" : "画像ハッシュ値を出力"
-"config.option.pictureDest" : "スクリーンショット保存先"
+"config.option.pictureDest" : "スクリーンショット保存先\n"
 "config.option.pictureDest.amongUsDirectory" : "Among Us ディレクトリ"
 "config.option.pictureDest.myPictures" : "マイピクチャ"
 "config.option.pictureDest.myDocuments" : "マイドキュメント"
@@ -25,7 +25,7 @@
 "config.option.prioritizeAmongUs" : "Among Usを優先"
 "config.option.prioritizeAmongUs.confirm" : "この設定はよりよいパフォーマンスと引き換えに\nシステムの動作が不安定になる恐れがあります\nそれでも変更しますか?"
 "config.option.timeoutExtension" : "タイムアウト猶予"
-"config.option.don'tcareMismatched" : "Nebulaのバージョンチェックを無効化(ホストのみ)"
+"config.option.dontCareMismatchedNoS" : "Nebulaのバージョンチェックを無効化\n(ホストのみ)"
 
 "config.option.yes" : "はい"
 "config.option.no" : "いいえ"
