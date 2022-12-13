@@ -818,7 +818,7 @@
 "role.jester.description" : "吊られろ"
 "role.jester.info" : "投票によって追放される事で勝利します\nプレイヤーを殺害する事は出来ませんが、疑いを向けられる為に活用出来る能力を持ちます"
 "role.jester.help.dragAndDrop" : "死体を掴む、･離す"
-"role.jester.help.blank" : "スナイパーのように空砲を撃つ
+"role.jester.help.blank" : "スナイパーのように空砲を撃つ"
 "role.jester.canUseVents" : "ベント使用"
 "role.jester.canInvokeSabotage" : "サボタージュの発生"
 "role.jester.canFixLightsAndComms" : "停電・コミュサボの復旧"
