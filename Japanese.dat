@@ -580,6 +580,14 @@
 "role.seer.info" : "誰かが死ぬとフラッシュが発生します\nまた、死亡地点にしばらくの間幽霊が現れます\n幽霊は会議を挟んで残存します"
 "role.seer.ghostDuration" : "幽霊の表示時間"
 
+"role.splicer.name" : "スプライサー"
+"role.splicer.short" : "ス"
+"role.splicer.description" : "ワープを駆使してタスクをこなせ"
+"role.splicer.info" : ""
+"role.splicer.help.warp" : "能力を使用すると、マウスで指す方向に壁を隔てて移動します。隔てる壁が無い場合、ワープが失敗します"
+"role.splicer.warpCoolDown" : "ワープクールダウン"
+"role.splicer.maxWarpDistance" : "最大ワープ距離"
+
 "role.spy.name" : "スパイ"
 "role.spy.short" : "潜"
 "role.spy.description" : "<color=#ff1919ff>インポスター</color>を錯乱せよ"
@@ -671,6 +679,11 @@
 "role.evilAce.killCoolDown" : "キルクールダウン倍率"
 "role.evilAce.canKnowDeadNonImpostorsRoles" : "死んだ非インポスターの役職が分かる"
 "role.evilAce.canKnowRolesOnlyMyMurders" : "対象を自身がキルしたプレイヤーに制限"
+
+"role.executioner.name" : "イグゼキューショナー"
+"role.executioner.short" : "執行"
+"role.executioner.description" : "遠距離殺害を成功させろ"
+"role.executioner.info" : "キルボタンを押すと、遠距離にいるプレイヤーを殺害をする事が可能\n指定時間内に狙いを定められない場合、殺害が失敗します"
 
 "role.evilGuesser.name" : "イビルゲッサー"
 "role.evilGuesser.short" : "悪推"
