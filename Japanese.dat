@@ -122,7 +122,7 @@
 "option.severeEmergencyLock" : "AND条件による緊急招集ロック"
 "option.canSkip" : "スキップ投票"
 "option.dealAbstentionAsSelfVote" : "白票の自投票化"
-"option.hideVotedIcon" : "投票状態の匿名化"
+"option.hideVotedIcon" : "投票状態の秘匿化"
 
 "option.mapOptions" : "マップ設定"
 "option.playRandomMaps" : "ランダムマップ"
