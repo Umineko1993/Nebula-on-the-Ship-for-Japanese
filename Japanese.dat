@@ -1,6 +1,6 @@
-"update.pleaseWait" : "しばらくお待ち下さい"
+"update.pleaseWait" : "Nebula更新中\nしばらくお待ち下さい"
 "update.manually" : "更新に失敗しました\n手動での更新をお願い致します"
-"update.inProgress" : "更新中"
+"update.inProgress" : "Nebula更新中"
 "update.restart" : "更新に成功しました\nゲーム本体を再起動して下さい"
 "update.failed" : "更新に失敗しました"
 "title.button.updateNebula" : "通常版のNebulaを更新"
