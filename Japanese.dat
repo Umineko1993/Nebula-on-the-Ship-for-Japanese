@@ -23,7 +23,7 @@
 "config.option.processorRestriction.dualCore" : "2コア"
 "config.option.processorRestriction.singleCore" : "1コア"
 "config.option.prioritizeAmongUs" : "Among Usを優先"
-"config.option.prioritizeAmongUs.confirm" : "この設定はよりよいパフォーマンスと引き換えに\nシステムの動作が不安定になる恐れがあります\nそれでも変更しますか?"
+"config.option.prioritizeAmongUs.confirm" : "この設定はより良いパフォーマンスと引き換えに\nシステムの動作が不安定になる恐れがあります\nそれでも変更しますか?"
 "config.option.timeoutExtension" : "タイムアウト猶予"
 "config.option.dontCareMismatchedNoS" : "Nebulaのバージョンチェックを無効化\n(ホストのみ)"
 
@@ -142,7 +142,7 @@
 "option.allowParallelMedBayScans" : "メッドベイの並列スキャン"
 "option.quietVentsInTheShadow" : "影の中でベント開閉が見えなくするか"
 "option.oneWayMeetingRoom" : "ミーティングルーム一方通行化(エアシップ)"
-"option.shuffledElectrical" : "会議を挟む度󠄀にエレクトリカルの扉配置が変化(エアシップ)"
+"option.shuffledElectrical" : "会議を挟む度にエレクトリカルの扉配置が変化(エアシップ)"
 
 "option.sabotageOption" : "妨害設定"
 "option.sabotageCoolDown" : "サボタージュクールダウン"
