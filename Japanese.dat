@@ -142,7 +142,7 @@
 "option.allowParallelMedBayScans" : "メッドベイの並列スキャン"
 "option.quietVentsInTheShadow" : "影の中でベント開閉が見えなくするか"
 "option.oneWayMeetingRoom" : "ミーティングルーム一方通行化(エアシップ)"
-"option.shuffledElectrical" : "会議を挟む度にエレクトリカルの扉配置が変化(エアシップ)"
+"option.shuffledElectrical" : "会議後にエレクトリカルの扉配置が変化(エアシップ)"
 
 "option.sabotageOption" : "妨害設定"
 "option.sabotageCoolDown" : "サボタージュクールダウン"
