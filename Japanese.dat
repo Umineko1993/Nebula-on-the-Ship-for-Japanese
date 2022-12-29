@@ -451,7 +451,7 @@
 "role.navvy.ventDuration" : "ベント潜伏時間"
 
 "role.necromancer.name" : "ネクロマンサー"
-"role.necromancer.short" : "ネ"
+"role.necromancer.short" : "霊媒"
 "role.necromancer.description" : "霊を喚び戻せ"
 "role.necromancer.info" : "死体を運び、指定された復活部屋で復活させる事が可能"
 "role.necromancer.help.dragAndDrop" : "死体を掴む、あるいは離します\n死体を掴むと復活部屋の名前と部屋をさす矢印が現れます"
@@ -510,22 +510,22 @@
 "role.necromancer.maxNotificationDistance" : "死体の最大検知可能距離"
 
 "role.niceGuesser.name" : "ナイスゲッサー"
-"role.niceGuesser.short" : "推"
+"role.niceGuesser.short" : "良推"
 "role.niceGuesser.description" : "敵を撃ち抜け"
 "role.niceGuesser.info" : "会議中に、他人の役職を推察して殺害する事が可能\n推察が間違っていた場合、自身が代わりに死亡します"
 
 "role.niceTracker.name" : "ナイストラッカー"
-"role.niceTracker.short" : "追"
+"role.niceTracker.short" : "良追"
 "role.niceTracker.description" : "一挙手一投足を見逃すな"
 "role.niceTracker.info" : "プレイヤーを追跡する事が可能"
 
 "role.niceTrapper.name" : "ナイストラッパー"
-"role.niceTrapper.short" : "罠"
+"role.niceTrapper.short" : "良罠"
 "role.niceTrapper.description" : "罠を仕掛けろ"
 "role.niceTrapper.info" : "様々な効果をもたらす罠を設置する事が可能\n3種類の罠を設置する事が可能"
 
 "role.oracle.name" : "オラクル"
-"role.oracle.short" : "占"
+"role.oracle.short" : "占師"
 "role.oracle.description" : "正体を見極めろ"
 "role.oracle.info" : "他のプレイヤーの役職を占う事が可能\n占いによって、そのプレイヤーの役職の候補を知る事が可能"
 "role.oracle.help.oracle" : "プレイヤーを占います"
@@ -589,7 +589,7 @@
 "role.splicer.maxWarpDistance" : "最大ワープ距離"
 
 "role.spy.name" : "スパイ"
-"role.spy.short" : "潜"
+"role.spy.short" : "潜入"
 "role.spy.description" : "<color=#ff1919ff>インポスター</color>を錯乱せよ"
 "role.spy.info" : "あなたはクルーメイト陣営ですが、<color=#ff1919ff>インポスター</color>からは<color=#ff1919ff>インポスター</color>の仲間のように見えます\n\n - V : ベントを使用但しベント移動は不可"
 "role.spy.impostorCanKillImpostor" : "インポスターによるインポスターキル"
@@ -597,7 +597,7 @@
 "role.spy.ventDuration" : "ベント潜伏時間"
 
 "role.madmate.name" : "マッドメイト"
-"role.madmate.short" : "狂"
+"role.madmate.short" : "狂人"
 "role.madmate.secondaryPrefix" : "マッド"
 "role.madmate.description" : "<color=#ff1919ff>インポスター</color>とともに勝利せよ"
 "role.madmate.info" : "<color=#ff1919ff>インポスター</color>が勝利する事があなたの勝利条件です\nしかし、自身はクルーメイトとしてカウントされる点に注意してください\n\n - V : ベントを使用"
@@ -611,7 +611,7 @@
 "role.madmate.numOfTasksRequired" : "要求タスク数"
 
 "role.impostor.name" : "インポスター"
-"role.impostor.short" : "イ"
+"role.impostor.short" : "狼"
 "role.impostor.description" : "クルーメイトを殺害しろ"
 "role.impostor.info" : "特殊能力を持たない<color=#ff1919ff>インポスター</color>"
 
@@ -709,7 +709,7 @@
 "role.jailer.ignoreCommSabotage" : "コミュサボを無視して遠隔アドミンを行使"
 
 "role.marionette.name" : "マリオネット"
-"role.marionette.short" : "マ"
+"role.marionette.short" : "人形"
 "role.marionette.description" : "そこに意思はない"
 "role.marionette.info" : "場所を入れ替える事が出来る人形を設置可能"
 "role.marionette.help.decoy" : "デコイを設置します\nデコイは時間経過で自然消滅します"
@@ -729,7 +729,7 @@
 "role.morphing.morphDuration" : "擬態の有効時間"
 
 "role.painter.name" : "ペインター"
-"role.painter.short" : "ペ"
+"role.painter.short" : "塗師"
 "role.painter.description" : ""
 "role.painter.info" : "プレイヤーの見た目を変える事が可能\n見た目を変えられたプレイヤーは、自身の見た目が変わっている事に気づけません"
 "role.painter.help.sample" : "サンプルを取得"
@@ -739,7 +739,7 @@
 "role.painter.changeLookImmediately" : "即座な見た目の変化"
 
 "role.raider.name" : "レイダー"
-"role.raider.short" : "レ"
+"role.raider.short" : "斧"
 "role.raider.info" : "通常キルの代わりに斧を投げる事が可能\n投げられた斧に当たったプレイヤー全員を殺害可能"
 "role.raider.description" : "暴れまわれ"
 "role.raider.help.equip" : "斧を装備･収納"
@@ -795,7 +795,7 @@
 "role.chainShifter.guesserMode.shift" : "交換"
 
 "role.empiric.name" : "エンパイリック"
-"role.empiric.short" : "藪医者"
+"role.empiric.short" : "藪医"
 "role.empiric.description" : "感染させろ"
 "role.empiric.info" : "全員を未知の病気に感染させる事によって勝利します\n自身が死亡していても勝利出来る可能性があります"
 "role.empiric.help.infect" : "プレイヤーを感染させます\n感染したプレイヤーが他プレイヤーに伝染させている様子は画面左下で確認可能"
@@ -809,7 +809,7 @@
 "role.empiric.ventDuration" : "ベント潜伏時間"
 
 "role.jackal.name" : "ジャッカル"
-"role.jackal.short" : "ジ"
+"role.jackal.short" : "ジャ"
 "role.jackal.description" : "殲滅せよ"
 "role.jackal.info" : "他プレイヤーを殲滅すれば勝利します\n<color=#ff1919ff>インポスター</color>を排除しきる必要があります\nまた、サイドキックが有効な場合、自身が何らかの理由で死亡するとサイドキックが新たなジャッカルになります"
 "role.jackal.help.sidekick" : "サイドキックを生成します"
@@ -818,7 +818,7 @@
 "role.jackal.numOfKillingToCreateSidekick" : "サイドキック生成に必要な殺害数"
 
 "role.sidekick.name" : "サイドキック"
-"role.sidekick.short" : "サ"
+"role.sidekick.short" : "サイ"
 "role.sidekick.info" : "ジャッカルが死亡すると、あなたが新たなジャッカルになります"
 "role.sidekick.canKill" : "サイドキックの殺害行為"
 "role.sidekick.killCoolDown" : "キルクールダウン"
@@ -827,7 +827,7 @@
 "role.sidekick.canUseVents" : "ベントの使用"
 
 "role.jester.name" : "ジェスター"
-"role.jester.short" : "てるてる"
+"role.jester.short" : "てる"
 "role.jester.description" : "吊られろ"
 "role.jester.info" : "投票によって追放される事で勝利します\nプレイヤーを殺害する事は出来ませんが、疑いを向けられる為に活用出来る能力を持ちます"
 "role.jester.help.dragAndDrop" : "死体を掴む、･離す"
@@ -841,7 +841,7 @@
 "role.jester.canFireBlankShots" : "空砲の発射"
 
 "role.opportunist.name" : "オポチュニスト"
-"role.opportunist.short" : "オ"
+"role.opportunist.short" : "オポ"
 "role.opportunist.description" : "時は来たれり"
 "role.opportunist.info" : "自身のタスクを全てこなすと、他プレイヤーの勝利に潜り込んで一緒に勝利する事が可能"
 "role.opportunist.numOfTasks" : "タスクの数"
@@ -878,15 +878,15 @@
 "role.opportunist.task.staying.decontamination" : "除染室"
 
 "role.diamondPossessor.name" : "ダイヤの所持者"
-"role.diamondPossessor.short" :"ダ"
+"role.diamondPossessor.short" :"ダイ"
 "role.diamondPossessor.info" : ""
 
 "role.teamSanta.name" : "サンタクロース陣営"
-"role.teamSanta.short" : "サ"
+"role.teamSanta.short" : "サ陣"
 "role.teamSanta.info" : "サンタクロース陣営の一員として迎えられました"
 
 "role.santaClaus.name" : "サンタクロース"
-"role.santaClaus.short" : "サ"
+"role.santaClaus.short" : "良サ"
 "role.santaClaus.description" : "最高のクリスマスを"
 "role.santaClaus.info" : "プレゼントをプレイヤーに渡して、サンタ陣営に取り込む事が可能\n生存者全員がサンタ陣営になれば勝利します"
 "role.santaClaus.help.santa" : "陣営に招待するプレゼントを贈る"
@@ -904,7 +904,7 @@
 "role.blackSanta.help.release" : "袋に詰めた死体を出して設置"
 
 "role.vulture.name" : "ヴァルチャー"
-"role.vulture.short" : "ヴ"
+"role.vulture.short" : "禿鷲"
 "role.vulture.description" : "食い漁れ"
 "role.vulture.info" : "死体を食べる事で勝利します\nまた、死体を指す青い矢印が常時表示されます"
 "role.vulture.help.eat" : "死体を食べる"
@@ -930,22 +930,22 @@
 "role.extra.chanceRate" : "割り当て確率"
 
 "role.bloody.name" :"ブラッディ"
-"role.bloody.short" :"ブ"
+"role.bloody.short" :"ブラ"
 "role.bloody.info" : "あなたを殺害した相手に、しばらく血の足跡を付ける"
 "role.bloody.bloodyDuration" :"血の付いた足跡の有効時間"
 
 "role.confused.name" : "無能"
-"role.confused.short" : "無"
+"role.confused.short" : "無能"
 "role.confused.info" : "会議を経る度に、あなたの視界に映るプレイヤーの姿が入れ替わる"
 "role.confused.chanceOfShuffle" : "会議時のシャッフル確率"
 "role.confused.numOfShuffledPlayers" : "シャッフルされるプレイヤー人数"
 
 "role.drun.name" : "ドランク"
-"role.drun.short" : "ド"
+"role.drun.short" : "呑み"
 "role.drunkk.info" : "昨日は飲み過ぎた\n操作が反転します"
 
 "role.lover.name" : "恋人"
-"role.lover.short" :"恋"
+"role.lover.short" :"恋人"
 "role.lover.description" : "あなたは %NAME% と<color=#fc04bdff>恋</color>に落ちている"
 "role.lover.info" : "恋人は2人組です\n片方が死ぬと、もう片方も後を追って死にます\n誰か一人を巻き込んでトリレマになる事も可能\n\n - Z : 一人を巻き込んでトリレマになる"
 "role.lover.help.involve" : "一人を巻き込んでトリレマになります(標準モード限定)"
@@ -959,7 +959,7 @@
 "role.lover.additionalEndText" : " <color=#ffffffff>+</color> <color=#fb02beff>恋人</color>"
 
 "role.trilemma.name" : "トリレマ"
-"role.trilemma.short" : "ト"
+"role.trilemma.short" : "トレ"
 "role.trilemma.info" : "トリレマは3人組です\n誰かが死ぬと、残りも後を追って死にます\nトリレマの3人のみが生き残ると勝利します"
 
 "role.avenger.name" : "アヴェンジャー"
@@ -981,7 +981,7 @@
 "role.avengerTarget.info" : "あなたは誰かの想い人を殺した\n心せよ\n遺された者は、虎視眈々と逆襲の時を狙っている事だろう"
 
 "role.perkHolder.name" :"パークホルダー"
-"role.perkHolder.short" : "パ"
+"role.perkHolder.short" : "パク"
 "role.perkHolder.info" :""
 
 "role.investigator.name" : "インヴェスティゲーター"
@@ -993,7 +993,7 @@
 "role.gambler.description" : "今宵の祝杯を掴め"
 
 "role.player.name" : "プレイヤー"
-"role.player.short" : "プ"
+"role.player.short" : "プレ"
 "role.player.description" : "ゲームは間もなく始まる"
 "role.player.info" : "鬼ごっこモードでは、初めは全員がプレイヤーに割り振られます\nゲーム開始から10秒後に、ハレー･ポリスに変化します"
 
@@ -1002,39 +1002,39 @@
 "role.halley.info" : "ハンターから逃げるか、タスクを全てこなす事で勝利出来ます"
 
 "role.biela.name" : "ビエラ"
-"role.biela.short" : "ビ"
+"role.biela.short" : "ビエ"
 "role.biela.info" : ""
 
 "option.escapeHunter" : "ハンター"
 
 "role.polis.name" : "ポリス"
-"role.polis.short" : "ポ"
+"role.polis.short" : "警察"
 "role.polis.info" : "制限時間内に逃走者を全員捕まえる事で勝利します"
 "role.polis.arrestCoolDown" : "逮捕クールダウン"
 
 "role.hadar.name" : "ハダル"
-"role.hadar.short" : "ハ"
+"role.hadar.short" : "ハダ"
 "role.hadar.info" : "地中から湧き出ることで周囲の逃走者に恐怖を植え付けます\n恐怖が最大まで高まった逃走者は死に至ります"
 "role.hadar.damageRadius" : "ダメージ有効距離"
 "role.hadar.damageLevel" : "ダメージ強度"
 "role.hadar.reappearance" : "再出現クールダウン"
 
 "role.ritualCrewmate.name" : "クルーメイト"
-"role.ritualCrewmate.short" : "乗"
+"role.ritualCrewmate.short" : "乗組"
 "role.ritualCrewmate.description" : "儀式から脱出せよ"
 "role.ritualCrewmate.info" : ""
 
 "role.killer.name" : "キラー"
-"role.killer.short" : "キ"
+"role.killer.short" : "殺人"
 "role.killer.description" : "供物を捧げよ"
 "role.killer.info" : ""
 
 "role.metaRole.name" : "フリープレイ"
-"role.metaRole.short" : "フ"
+"role.metaRole.short" : "フリ"
 "role.metaRole.info" : "様々な役職を試す事が可能\nまた、2点間の距離を測る事が可能\n\n - 1 : 現在位置を距離計測の基点にする\n - 2 : 役職を変更する\n - 3 : 自殺する\n - 4 : 復活する"
 
 "role.poltergeist.name" : "ポルターガイスト"
-"role.poltergeist.short" : "ポ"
+"role.poltergeist.short" : "ポル"
 "role.poltergeist.info" : "死体を手元に引き寄せる事が可能\n死体の位置を動かして、よりクルーが死体を発見しやすくなるように仕向けます"
 "role.poltergeist.help.poltergeist" : "死体を引き寄せる"
 "role.poltergeist.poltergeistCoolDown" : "ポルターガイスト能力クールダウン"
@@ -1056,11 +1056,11 @@
 "side.void.name" : "ボイド"
 
 "roles.category.default" : "標準"
-"roles.category.crewmate" : "クルーメイト"
-"roles.category.impostor" : "インポスター"
+"roles.category.crewmate" : "クルーメイト陣営"
+"roles.category.impostor" : "インポスター陣営"
 "roles.category.neutral" : "第三陣営"
 "roles.category.lover" : "恋人陣営"
-"roles.category.jackal" : "ジャッカル"
+"roles.category.jackal" : "ジャッカル陣営"
 "roles.category.vulture" : "ヴァルチャー"
 
 "game.message.countDown" : "ゲーム開始まであと %COUNT% 秒"
