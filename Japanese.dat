@@ -61,7 +61,7 @@
 "cosmic.package.Nebula on the ShipCommHat" : "Nebula on the Shipのコミュニティー帽子"
 "cosmic.package.Nebula on the ShipCommNameplate" : "Nebula on the Shipのコミュニティー名札"
 "cosmic.package.Nebula on the ShipCommVisor" : "Nebula on the Shipのコミュニティーバイザー"
-"cosmic.package.local" : "ローカルコスミック"
+"cosmic.package.local" : "ローカル衣装"
 
 "preset.save" : "現在の設定を保存"
 "preset.dialog.save" : "正常に保存されました"
@@ -92,7 +92,7 @@
 "option.tab.neutralRoles" : "第三陣営<color=#ffffffff>役職</color>"
 "option.tab.ghostRoles" : "幽霊<color=#ffffffff>役職</color>"
 "option.tab.modifiers" : "追加役職"
-"option.tab.escapeRoles" : "エスケープ<color=#ffffffff>役職</color>"
+"option.tab.escapeRoles" : "鬼ごっこ<color=#ffffffff>役職</color>"
 "option.tab.advancedSettings" : "詳細設定"
 
 "option.preset" : "プリセット"
@@ -108,7 +108,7 @@
 "option.minimumImpostorRoles" : "インポスター役職の最小割り当て数"
 "option.maximumImpostorRoles" : "インポスター役職の最大割り当て数"
 
-"option.soloFreePlayOption" : "一人フリープレイ設定"
+"option.soloFreePlayOption" : "フリープレイ設定"
 "option.countOfDummies" : "ダミー人数"
 
 "option.meetingOptions" : "緊急招集設定"
@@ -128,7 +128,7 @@
 "option.playRandomMaps" : "ランダムマップ"
 "option.exceptSkeld" : "ランダムマップでのスケルド排除"
 "option.exceptMIRA" : "ランダムマップでのミラHQ排除"
-"option.exceptPolus" : "ランダムマップでのポラス排除"
+"option.exceptPolus" : "ランダムマップでのポーラス排除"
 "option.exceptAirship" : "ランダムマップでのエアシップ排除"
 "option.additionalVents" : "追加ベントの有効化"
 "option.additionalWirings" : "追加配線タスクの有効化"
@@ -236,7 +236,7 @@
 
 "option.devicesOption" : "情報端末設定"
 "option.devicesOption.restrictModeOption" : "制限モード"
-"option.devicesOption.perDiscussion" : "会議毎にリセット"
+"option.devicesOption.perDiscussion" : "緊急召集後にリセット"
 "option.devicesOption.perGame" : "試合全体で制限"
 "option.devicesOption.admin" : "アドミン"
 "option.devicesOption.vitals" : "バイタル"
@@ -304,12 +304,12 @@
 
 "role.void.name" : "ボイド"
 "role.void.short" : "GM"
-"role.void.description" : "超至適知的支配者(ゲームマスター)"
+"role.void.description" : "ゲームマスター"
 "role.void.info" : "ゲームマスター"
 "role.void.help.void" : "ボイドダイアログを開く\nこのダイアログは会議中でも開く事が可能"
 
 "role.crewmate.name" : "クルーメイト"
-"role.crewmate.short" : "乗"
+"role.crewmate.short" : "乗組"
 "role.crewmate.description" : "<color=#ff1919ff>インポスター</color>を探せ"
 "role.crewmate.info" : "特殊能力はありません"
 "role.crewmate.isGuessable" : "ゲッサーによる推察"
@@ -382,7 +382,7 @@
 "role.alien.countOfCallingSabotage" : "サボタージュ使用可能回数"
 
 "role.bait.name" : "ベイト"
-"role.bait.short" : "ベ"
+"role.bait.short" : "べ"
 "role.bait.description" : "敵を嵌めろ"
 "role.bait.info" : "自身が殺害されると、殺人者は即座にレポートさせられます"
 "role.bait.killerCanKnowBaitKillByFlash" : "殺人鬼にフラッシュ表示"
@@ -418,7 +418,7 @@
 "role.doctor.batteryIsEmpty" : "バッテリー切れ"
 
 "role.guardian.name" : "ガーディアン"
-"role.guardian.short" : "ガ"
+"role.guardian.short" : "守護"
 "role.guardian.description" : "不落の要塞"
 "role.guardian.info" : "アンテナを設置する事で、周囲のプレイヤーの動きと色の明暗をマップ上で把握可能"
 "role.guardian.help.antenna" : "アンテナを設置\nアンテナは1度会議を挟む事で効果を発揮します"
@@ -430,7 +430,7 @@
 "role.guardian.showGuardFlash" : "ガード成功時のフラッシュ"
 
 "role.mayor.name" : "メイヤー"
-"role.mayor.short" : "メ"
+"role.mayor.short" : "市長"
 "role.mayor.description" : "<color=#ff1919ff>インポスター</color>を追放せよ"
 "role.mayor.info" : "会議で票をためたり、一度に複数票を使用する事が可能\n投じる票数は、会議画面下部の矢印ボタンで設定可能\n投票数を0にする事で票を貯める事が可能"
 "role.mayor.voteStockLeft" : "票のストック"
@@ -440,7 +440,7 @@
 "role.mayor.maxVoteStock" : "票の最大割り当て"
 
 "role.navvy.name" : "ナヴィ"
-"role.navvy.short" : "ナ"
+"role.navvy.short" : "整備"
 "role.navvy.description" : "船内システムを維持せよ"
 "role.navvy.info" : "ベントを封鎖する事が可能\n封鎖出来るだけベントを封鎖しきれば、会議を挟んだ後からベントを使えるようになり、サボタージュを1回に限り、遠隔で復旧出来るようになります"
 "role.navvy.help.seal" : "ベントを封鎖"
