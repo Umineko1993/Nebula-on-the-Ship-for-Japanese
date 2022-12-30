@@ -19,7 +19,7 @@
 "config.option.pictureDest.desktop" : "デスクトップ"
 "config.option.processorRestriction" : "プロセッサ制限"
 "config.option.processorRestriction.dontCare" : "無制限"
-"config.option.processorRestriction.dualCoreHT" : "2コア(HT)"
+"config.option.processorRestriction.dualCoreHT" : "2コア\n(ハイパースレッディング)"
 "config.option.processorRestriction.dualCore" : "2コア"
 "config.option.processorRestriction.singleCore" : "1コア"
 "config.option.prioritizeAmongUs" : "Among Usを優先"
