@@ -44,7 +44,7 @@
 "config.option.keyBinding.metaControl" : "メタコントロール"
 "config.option.keyBinding.noGame" : "無効試合(メタコントロール)"
 
-"lobby.hasNoNebula" : "%NAME% は Nebula on the Ship を導入していないか、バージョンがホストと合致しません"
+"lobby.hasNoNebula" : "%NAME% は Nebula on the Ship を導入していません"
 "lobby.hasDifferentNebula" : "%NAME% の導入している Nebula on the Ship のバージョンがホストのバージョンと合致していません"
 "lobby.willEliminatedByMismatchVersion" : "Nebula on the Ship のバージョンがホストのバージョンと合致しません\nあと %STAY%秒で切断されます"
 
@@ -442,7 +442,7 @@
 "role.navvy.name" : "ナヴィ"
 "role.navvy.short" : "整備"
 "role.navvy.description" : "船内システムを維持せよ"
-"role.navvy.info" : "ベントを封鎖する事が可能\n封鎖出来るだけベントを封鎖しきれば、会議を挟んだ後からベントを使えるようになり、サボタージュを1回に限り、遠隔で復旧出来るようになります"
+"role.navvy.info" : "ベントを封鎖する事が可能\nベントを封鎖し終わり会議を挟んだ後、修理能力を使えるようになり、妨害を1回に限り、遠隔で復旧出来るようになります"
 "role.navvy.help.seal" : "ベントを封鎖"
 "role.navvy.help.repair" : "1度だけ遠隔でサボタージュを復旧させられます\nこのボタンはベントを封鎖出来るだけ封鎖した後に会議を跨ぐと出現します"
 "role.navvy.maxScrews" : "ベント封鎖可能回数"
@@ -730,7 +730,7 @@
 
 "role.painter.name" : "ペインター"
 "role.painter.short" : "塗師"
-"role.painter.description" : ""
+"role.painter.description" : "もう誰もあなたを知らない"
 "role.painter.info" : "プレイヤーの見た目を変える事が可能\n見た目を変えられたプレイヤーは、自身の見た目が変わっている事に気づけません"
 "role.painter.help.sample" : "サンプルを取得"
 "role.painter.help.paint" : "プレイヤーの見た目を取得したサンプルに塗り替えます\nサンプルを取得していない場合、自分自身の見た目に塗り替えます"
@@ -1183,6 +1183,7 @@
 "button.label.throw" : "投擲"
 "button.label.track" : "追跡"
 "button.label.unequip" : "格納"
+"button.label.warp" : "ワープ"
 "button.label.vital" : "バイタル"
 "button.label.void" : "ボイド"
 
