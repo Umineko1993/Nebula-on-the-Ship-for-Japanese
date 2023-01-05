@@ -426,6 +426,8 @@
 "role.guardian.maxAntennas" : "アンテナ最大設置数"
 "role.guardian.placeCoolDown" : "設置クールダウン"
 "role.guardian.antennaEffectiveRange" : "アンテナの効果範囲"
+"role.guardian.alertMode" : "アラートモード"
+"role.guardian.alertInterval" : "アラート間隔(秒)"
 "role.guardian.canIdentifyDeadBody" : "マップ上で死体を赤く表示"
 "role.guardian.showGuardFlash" : "ガード成功時のフラッシュ"
 
