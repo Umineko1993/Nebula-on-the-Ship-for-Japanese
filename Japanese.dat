@@ -642,6 +642,11 @@
 "role.cleaner.help.clean" : "死体を消去します\nクールダウンはキルクールダウンと共有されています"
 "role.cleaner.cleanCoolDown" : "死体消去のクールダウン"
 
+"role.covert.name" : "カバート"
+"role.covert.short" : "カバ"
+"role.covert.description" : "潜伏して機会を待て"
+"role.covert.info" : "共犯者がいなくなれば、殺せるようになる"
+
 "role.damned.name" : "呪われし者"
 "role.damned.short" : "呪"
 "role.damned.description" : "クルーメイトを殺せ"
