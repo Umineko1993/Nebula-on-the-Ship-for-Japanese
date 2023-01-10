@@ -440,6 +440,7 @@
 "role.mayor.minVote" : "最小投票数"
 "role.mayor.maxVote" : "最大投票数"
 "role.mayor.maxVoteStock" : "票の最大割り当て"
+"role.mayor.haveRemoteEmergencyButton" : "遠隔の緊急招集ボタンを使用出来るか"
 
 "role.navvy.name" : "ナヴィ"
 "role.navvy.short" : "整備"
