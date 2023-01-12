@@ -335,7 +335,7 @@
 "role.tracker.help.meeting" : "選択したプレイヤーのタスクの進捗状況を確認する事が可能\n設定によって追跡するプレイヤーを変更します"
 "role.tracker.chanceToSpawnAsSecondarySide" : "インポスターへの割り当て確率"
 "role.tracker.definitiveAssignment" : "決定的な役職割り当て"
-"role.tracker.canChangeTrackingTarget" : "追跡対象の追跡対象"
+"role.tracker.canChangeTrackingTarget" : "追跡対象の変更可能にする"
 "role.tracker.changeTargetCoolDown" : "対象変更の変更クールダウン"
 "role.tracker.canUseMeetingActionOption" : "緊急会議行動"
 "role.tracker.canChangeTrackingTargetInMeegingOption" : "会議中での追跡対象の変更"
