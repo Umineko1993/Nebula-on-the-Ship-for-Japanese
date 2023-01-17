@@ -123,6 +123,7 @@
 "option.canSkip" : "スキップ投票"
 "option.dealAbstentionAsSelfVote" : "白票の自投票化"
 "option.hideVotedIcon" : "投票状態の秘匿化"
+"option.showRoleOfExiled" : "試合終了時に役職を表示する"
 
 "option.mapOptions" : "マップ設定"
 "option.playRandomMaps" : "ランダムマップ"
@@ -715,6 +716,7 @@
 "role.jailer.canMoveWithLookingMap" : "遠隔アドミン確認中の移動"
 "role.jailer.canIdentifyImpostors" : "遠隔アドミン上でのインポスター･死体識別"
 "role.jailer.ignoreCommSabotage" : "コミュサボを無視して遠隔アドミンを行使"
+"role.jailer.canInheritAbility" : "能力継承"
 
 "role.marionette.name" : "マリオネット"
 "role.marionette.short" : "人形"
@@ -1004,6 +1006,7 @@
 "role.player.short" : "プレ"
 "role.player.description" : "ゲームは間もなく始まる"
 "role.player.info" : "鬼ごっこモードでは、初めは全員がプレイヤーに割り振られます\nゲーム開始から10秒後に、ハレー･ポリスに変化します"
+"role.player.tab" : "あなたはゲームプレイヤーです"
 
 "role.halley.name" : "ハレー"
 "role.halley.short" : "ハ"
