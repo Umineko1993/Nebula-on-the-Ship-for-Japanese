@@ -26,6 +26,7 @@
 "config.option.prioritizeAmongUs.confirm" : "この設定はより良いパフォーマンスと引き換えに\nシステムの動作が不安定になる恐れがあります\nそれでも変更しますか?"
 "config.option.timeoutExtension" : "タイムアウト猶予"
 "config.option.dontCareMismatchedNoS" : "Nebulaのバージョンチェックを無効化\n(ホストのみ)"
+"config.option.preventSpoiler" : "ネタバレ防止"
 
 "config.option.yes" : "はい"
 "config.option.no" : "いいえ"
@@ -156,6 +157,9 @@
 "option.blackOutStrength" : "停電の強度"
 "option.canUseDoorDespiteSabotage" : "緊急サボタージュ中の扉閉め(エアシップ)"
 
+"option.streamersOption" : "配信者設定"
+"option.streamersOption.enforcePreventingSpoiler" : "参加者に対しネタバレ防止を強制"
+
 "option.spawnMethod" : "スポーン方式"
 "option.spawnMethod.default" : "標準"
 "option.spawnMethod.selectable" : "選択式"
@@ -260,6 +264,8 @@
 "option.devicesOption.camera.security" : "セキュリティ"
 "option.devicesOption.camera.cargoBay" : "貨物室"
 "option.devicesOption.camera.meetingRoom" : "ミーティングルーム"
+"option.devicesOption.showTimeLeftOnConsoles" : "情報端末上での残り時間表示"
+"option.devicesOption.showTimeLeftOnMeeting" : "緊急招集中に情報端末の残り時間表示"
 
 "option.tasksOption" : "タスク難化設定"
 "option.randomizedWiring" : "配線順序のランダム化"
