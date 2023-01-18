@@ -264,7 +264,7 @@
 "option.devicesOption.camera.security" : "セキュリティ"
 "option.devicesOption.camera.cargoBay" : "貨物室"
 "option.devicesOption.camera.meetingRoom" : "ミーティングルーム"
-"option.devicesOption.showTimeLeftOnConsoles" : "情報端末上での残り時間表示"
+"option.devicesOption.showTimeLeftOnConsoles" : "情報端末の残り時間表示"
 "option.devicesOption.showTimeLeftOnMeeting" : "緊急招集中に情報端末の残り時間表示"
 
 "option.tasksOption" : "タスク難化設定"
