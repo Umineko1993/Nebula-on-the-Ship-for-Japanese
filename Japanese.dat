@@ -319,6 +319,7 @@
 "role.void.description" : "ゲームマスター"
 "role.void.info" : "ゲームマスター"
 "role.void.help.void" : "ボイドダイアログを開く\nこのダイアログは会議中でも開く事が可能"
+"role.void.hint" : "あなたはゲームマスターです"
 
 "role.crewmate.name" : "クルーメイト"
 "role.crewmate.short" : "乗組"
@@ -327,6 +328,7 @@
 "role.crewmate.isGuessable" : "ゲッサーによる推察"
 "role.crewmate.maxCountOfDamned" : "呪われしものの最大人数"
 "role.crewmate.chanceOfDamned" : "呪われしものの発生確率"
+"role.crewmate.hint" : "タスクをこなし、インポスターを見つけろ"
 
 "role.guesser.name" : "ゲッサー"
 "role.guesser.info" : "会議中に、他人の役職を推察して殺害する事が可能\n推察が間違っていた場合、自身が代わりに死亡します"
@@ -341,6 +343,7 @@
 "role.guesser.impostorRoleCount" : "最大人数(インポスター)"
 "role.guesser.neutralRoleCount" : "最大人数(第三陣営)"
 "role.secondaryGuesser.description" : "推察しろ"
+"role..hint" : ""
 
 "role.tracker.name" : "トラッカー"
 "role.tracker.help.track" : "追跡するプレイヤーを選択"
@@ -353,6 +356,7 @@
 "role.tracker.canChangeTrackingTargetInMeegingOption" : "会議中での追跡対象の変更"
 "role.tracker.evilTrackerCanTrackImpostors" : "イビルトラッカーによるインポスターの常時追跡"
 "role.tracker.evilTrackerCanKnowImpostorsKill" : "イビルトラッカーへのインポスター殺害通知"
+"role..hint" : ""
 
 "role.trapper.name" : "トラッパー"
 "role.trapper.help.accel" : "加速トラップを設置可能。1回緊急招集を跨いで全員に見えるようになります"
@@ -371,6 +375,7 @@
 "role.trapper.killTrapCost" : "殺害トラップの設置コスト"
 "role.trapper.rootTime" : "トラップ設置時の硬直時間"
 "role.trapper.killTrapAudibleDistance" : "殺害トラップ設置音の可聴範囲"
+"role..hint" : ""
 
 "role.agent.name" : "エージェント"
 "role.agent.short" : "仲介"
@@ -381,6 +386,7 @@
 "role.agent.actOverTasks" : "一回当たりのタスク代行数"
 "role.agent.maxVents" : "ベントの使用可能回数"
 "role.agent.killCoolDownBonus" : "キルクールダウンボーナス"
+"role..hint" : ""
 
 "role.alien.name" : "エイリアン"
 "role.alien.short" : "エイ"
@@ -392,12 +398,14 @@
 "role.alien.emiRange" : "E.M.I. の有効範囲"
 "role.alien.emiInhibitsCrewmates" : "E.M.I. がクルー陣営に負の効果をもたらす"
 "role.alien.countOfCallingSabotage" : "サボタージュ使用可能回数"
+"role..hint" : ""
 
 "role.bait.name" : "ベイト"
 "role.bait.short" : "餌"
 "role.bait.description" : "敵を嵌めろ"
 "role.bait.info" : "自身が殺害されると、殺人者は即座にレポートさせられます"
 "role.bait.killerCanKnowBaitKillByFlash" : "殺人鬼にフラッシュ表示"
+"role..hint" : ""
 
 "role.busker.name" : "バスカー"
 "role.busker.short" : "大道"
@@ -407,6 +415,7 @@
 "role.busker.help.revive" : "復活します\n船内でのみ復活可能\n時間内に復活しない場合、復活ボタンが消滅し、完全に死んでしまいます"
 "role.busker.buskCoolDown" : "偽装死クールダウン"
 "role.busker.buskDuration" : "復活までの猶予時間"
+"role..hint" : ""
 
 "role.comet.name" : "コメット"
 "role.comet.short" : "彗星"
@@ -418,6 +427,7 @@
 "role.comet.boostSpeed" : "加速倍率"
 "role.comet.boostVisionRate" : "加速時の視界拡大率"
 "role.comet.boostViewRate" : "加速時の視野拡大率"
+"role..hint" : ""
 
 "role.doctor.name" : "ドクター"
 "role.doctor.short" : "医者"
@@ -428,6 +438,7 @@
 "role.doctor.chargesPerTasks" : "タスク完了時のガジェット充電時間"
 "role.doctor.gadgetLeft" : "%SECOND% 秒"
 "role.doctor.batteryIsEmpty" : "バッテリー切れ"
+"role..hint" : ""
 
 "role.guardian.name" : "ガーディアン"
 "role.guardian.short" : "守護"
@@ -442,6 +453,7 @@
 "role.guardian.alertInterval" : "警報間隔(秒)"
 "role.guardian.canIdentifyDeadBody" : "マップ上で死体を赤く表示"
 "role.guardian.showGuardFlash" : "ガード成功時のフラッシュ"
+"role..hint" : ""
 
 "role.mayor.name" : "メイヤー"
 "role.mayor.short" : "市長"
@@ -453,6 +465,7 @@
 "role.mayor.maxVote" : "最大投票数"
 "role.mayor.maxVoteStock" : "票の最大割り当て"
 "role.mayor.haveRemoteEmergencyButton" : "遠隔の緊急招集ボタンを使用出来るか"
+"role..hint" : ""
 
 "role.navvy.name" : "ナヴィ"
 "role.navvy.short" : "整備"
@@ -464,6 +477,7 @@
 "role.navvy.sealCoolDown" : "ベント封鎖クールダウン"
 "role.navvy.ventCoolDown" : "ベントクールダウン"
 "role.navvy.ventDuration" : "ベント潜伏時間"
+"role..hint" : ""
 
 "role.necromancer.name" : "ネクロマンサー"
 "role.necromancer.short" : "霊媒"
@@ -523,21 +537,25 @@
 "role.necromancer.reviveDuration" : "復活に要する時間"
 "role.necromancer.maxReviveRoomDistance" : "復活部屋への最大距離"
 "role.necromancer.maxNotificationDistance" : "死体の最大検知可能距離"
+"role..hint" : ""
 
 "role.niceGuesser.name" : "ナイスゲッサー"
 "role.niceGuesser.short" : "良推"
 "role.niceGuesser.description" : "敵を撃ち抜け"
 "role.niceGuesser.info" : "会議中に、他人の役職を推察して殺害する事が可能\n推察が間違っていた場合、自身が代わりに死亡します"
+"role..hint" : ""
 
 "role.niceTracker.name" : "ナイストラッカー"
 "role.niceTracker.short" : "良追"
 "role.niceTracker.description" : "一挙手一投足を見逃すな"
 "role.niceTracker.info" : "プレイヤーを追跡する事が可能"
+"role..hint" : ""
 
 "role.niceTrapper.name" : "ナイストラッパー"
 "role.niceTrapper.short" : "良罠"
 "role.niceTrapper.description" : "罠を仕掛けろ"
 "role.niceTrapper.info" : "様々な効果をもたらす罠を設置する事が可能\n3種類の罠を設置する事が可能"
+"role..hint" : ""
 
 "role.oracle.name" : "オラクル"
 "role.oracle.short" : "占師"
@@ -551,6 +569,7 @@
 "role.oracle.countOfCandidates" : "役職候補の数"
 "role.oracle.dieWhenDiviningOpportunist" : "オポチュニストを占うと死ぬ"
 "role.oracle.dieWhenDiviningOracle" : "オラクルを占うと死ぬ"
+"role..hint" : ""
 
 "role.provocateur.name" : "プロヴォケーター"
 "role.provocateur.short" : "工作"
@@ -560,6 +579,7 @@
 "role.provocateur.embroilCoolDown" : "道連れクールダウン"
 "role.provocateur.embroilCoolDownAddition" : "道連れ加算クールダウン"
 "role.provocateur.embroilDuration" : "道連れ持続時間"
+"role..hint" : ""
 
 "role.psychic.name" : "サイキック"
 "role.psychic.short" : "超能"
@@ -575,6 +595,7 @@
 "role.psychic.message.killerRole" : "私を殺害したの役職は　%ROLE%　です"
 "role.psychic.message.myRole" : "私は　%MYROLE%　の役職です"
 "role.psychic.message.losing" : "恨めしい"
+"role..hint" : ""
 
 "role.sheriff.name" : "シェリフ"
 "role.sheriff.short" : "保安"
@@ -588,12 +609,14 @@
 "role.sheriff.canKillOpportunist" : "殺害可能：オポチュニスト"
 "role.sheriff.canKillChainShifter" : "殺害可能：チェインシフター"
 "role.sheriff.numberOfShots" : "弾丸の数"
+"role.sheriff.hint" : "インポスターを撃て"
 
 "role.seer.name" : "シア"
 "role.seer.short" : "予言"
 "role.seer.description" : "死を見逃すな"
 "role.seer.info" : "誰かが死ぬとフラッシュが発生します\nまた、死亡地点にしばらくの間幽霊が現れます\n幽霊は会議を挟んで残存します"
 "role.seer.ghostDuration" : "幽霊の表示時間"
+"role..hint" : ""
 
 "role.splicer.name" : "スプライサー"
 "role.splicer.short" : "スプ"
@@ -602,6 +625,7 @@
 "role.splicer.help.warp" : "能力を使用すると、マウスで指す方向に壁を隔てて移動します。隔てる壁が無い場合、ワープが失敗します"
 "role.splicer.warpCoolDown" : "ワープクールダウン"
 "role.splicer.maxWarpDistance" : "最大ワープ距離"
+"role..hint" : ""
 
 "role.spy.name" : "スパイ"
 "role.spy.short" : "潜入"
@@ -610,6 +634,7 @@
 "role.spy.impostorCanKillImpostor" : "インポスターによるインポスターキル"
 "role.spy.ventCoolDown" : "ベントクールダウン"
 "role.spy.ventDuration" : "ベント潜伏時間"
+"role..hint" : ""
 
 "role.madmate.name" : "マッドメイト"
 "role.madmate.short" : "狂人"
@@ -626,11 +651,13 @@
 "role.madmate.involveNonImpostorPlayerOnExile" : "追放時の黒猫設定"
 "role.madmate.canKnowImpostorsByTasks" : "狂信者設定"
 "role.madmate.numOfTasksRequired" : "要求タスク数"
+"role.madmate.hint" : "インポスターを補助せよ"
 
 "role.impostor.name" : "インポスター"
 "role.impostor.short" : "狼"
 "role.impostor.description" : "クルーメイトを殺害しろ"
 "role.impostor.info" : "特殊能力を持たない<color=#ff1919ff>インポスター</color>"
+"role.impostor.hint" : "クルーメイトを殺害せよ"
 
 "role.bountyHunter.name" : "バウンティハンター"
 "role.bountyHunter.short" : "賞金"
@@ -641,6 +668,7 @@
 "role.bountyHunter.killCoolDownMultiplierAfterKillingOthers" : "非賞金首殺害時のキルクールダウン倍率"
 "role.bountyHunter.showArrowPointingTowardsTheBounty" : "賞金首を指す矢印の表示"
 "role.bountyHunter.bountyArrowUpdateInterval" : "矢印の更新間隔"
+"role.bountyHunter.hint" : "賞金首を殺せ"
 
 "role.camouflager.name" : "カモフラージャー"
 "role.camouflager.short" : "偽装"
@@ -649,6 +677,7 @@
 "role.camouflager.help.camo" : "カモフラージュを引き起こします"
 "role.camouflager.camouflageCoolDown" : "カモフラージュクールダウン"
 "role.camouflager.camouflageDuration" : "カモフラージュの有効時間"
+"role.camouflager.hint" : "正体を隠すためのカモフラージュをしろ"
 
 "role.cleaner.name" : "クリーナー"
 "role.cleaner.short" : "清掃"
@@ -656,17 +685,20 @@
 "role.cleaner.info" : "死体を消し去る事が可能\n誰かを殺したり、能力を行使すると、能力のクールダウンとキルクールダウンの両方が初期化されます"
 "role.cleaner.help.clean" : "死体を消去します\nクールダウンはキルクールダウンと共有されています"
 "role.cleaner.cleanCoolDown" : "死体消去のクールダウン"
+"role.cleaner.hint" : "死体を清掃しろ"
 
 "role.covert.name" : "カバート"
 "role.covert.short" : "カバ"
 "role.covert.description" : "潜伏して機会を待て"
 "role.covert.info" : "共犯者がいなくなれば、殺せるようになる"
+"role..hint" : "潜伏しろ"
 
 "role.damned.name" : "呪われし者"
 "role.damned.short" : "呪"
 "role.damned.description" : "クルーメイトを殺せ"
 "role.damned.info" : "あなたは<color=#ff1919ff>呪</color>われていた\n<color=#ff1919ff>インポスター</color>の脈動を呼び醒ませ\n今こそ反逆の時だ"
 "role.damned.message.killed" : "次の緊急招集後にインポスターになる"
+"role.damned.hint" : "クルーメイトを殺せ"
 
 "role.disturber.name" : "ディスターバー"
 "role.disturber.short" : "妨害"
@@ -682,6 +714,7 @@
 "role.disturber.ignoreBarriors.constant" : "無効"
 "role.disturber.ignoreBarriors.impostors" : "インポスター全員"
 "role.disturber.ignoreBarriors.onlyMyself" : "設置者のみ"
+"role.disturber.hint" : "バリアと停電でクルーメイトを悩ませろ"
 
 "role.eraser.name" : "イレイサー"
 "role.eraser.short" : "役消"
@@ -693,6 +726,7 @@
 "role.eraser.eraseCoolDown" : "消去クールダウン"
 "role.eraser.eraseCoolDownAddition" : "消去の加算クールダウン"
 "role.eraser.eraserCanGuessCrewmate" : "ゲッサー役職を持つイレイサーがクルーメイトを撃てるかどうか"
+"role.eraser.hint" : "クルーメイトの役職を消せ"
 
 "role.evilAce.name" : "イビルエース"
 "role.evilAce.short" : "悪エ"
@@ -701,35 +735,45 @@
 "role.evilAce.killCoolDown" : "キルクールダウン倍率"
 "role.evilAce.canKnowDeadNonImpostorsRoles" : "死んだ非インポスターの役職が分かる"
 "role.evilAce.canKnowRolesOnlyMyMurders" : "対象を自身がキルしたプレイヤーに制限"
-
-"role.executioner.name" : "イグゼキューショナー"
-"role.executioner.short" : "執行"
-"role.executioner.description" : "遠距離殺害を成功させろ"
-"role.executioner.info" : "キルボタンを押すと、遠距離にいるプレイヤーを殺害をする事が可能\n指定時間内に狙いを定められない場合、殺害が失敗します"
+"role.evilAce.hint" : "クルーメイトを殺害せよ"
 
 "role.evilGuesser.name" : "イビルゲッサー"
 "role.evilGuesser.short" : "悪推"
 "role.evilGuesser.description" : "クルーメイトを撃ち抜け"
 "role.evilGuesser.info" : "会議中に、他人の役職を推察して殺害する事が可能\n推察が間違っていた場合、自身が代わりに死亡します"
+"role.evilGuesser.hint" : "緊急招集時に推察せよ"
 
 "role.evilTracker.name" : "イビルトラッカー"
 "role.evilTracker.short" : "悪追"
 "role.evilTracker.description" : "誰かが見ている"
 "role.evilTracker.info" : "プレイヤーを追跡する事が可能\n設定によって、会議中に選択したプレイヤーのタスク進行度を把握する事が可能"
+"role.evilTracker.hint" : "不審な動きを監視せよ"
 
 "role.evilTrapper.name" : "イビルトラッパー"
 "role.evilTrapper.short" : "悪罠"
 "role.evilTrapper.description" : "罠にかけろ"
 "role.evilTrapper.info" : "様々な効果をもたらす罠を設置する事が可能\n3種類の罠を設置する事が可能"
+"role..hint" : ""
+
+"role.executioner.name" : "イグゼキューショナー"
+"role.executioner.short" : "執行"
+"role.executioner.description" : "遠距離殺害を成功させろ"
+"role.executioner.info" : "キルボタンを押すと、遠距離にいるプレイヤーを殺害をする事が可能\n指定時間内に狙いを定められない場合、殺害が失敗します"
+"role..hint" : ""
 
 "role.jailer.name" : "ジェイラー"
 "role.jailer.short" : "看守"
 "role.jailer.description" : "全てを掌握せよ"
-"role.jailer.info" : "どこでもアドミンを見る事が可能\nこのアドミンは情報端末制限の影響を受けません"
+"role.jailer.info" : "遠隔アドミンを見る事が可能\nこのアドミンは情報端末制限の影響を受けません"
 "role.jailer.canMoveWithLookingMap" : "遠隔アドミン確認中の移動"
 "role.jailer.canIdentifyImpostors" : "遠隔アドミン上でのインポスター･死体識別"
 "role.jailer.ignoreCommSabotage" : "コミュサボを無視して遠隔アドミンを行使"
 "role.jailer.canInheritAbility" : "能力継承"
+"role..hint" : ""
+
+"role.inheritedJailer.name" : "継承ジェイラー"
+"role.inheritedJailer.info" : "ジェイラーを継承しています\n遠隔アドミンを見る事が可能"
+"role..hint" : ""
 
 "role.marionette.name" : "マリオネット"
 "role.marionette.short" : "人形"
@@ -741,6 +785,7 @@
 "role.marionette.help.destroy" : "デコイを消去"
 "role.marionette.decoyDuration" : "デコイ効果時間"
 "role.marionette.swapCoolDown" : "スワップクールダウン"
+"role..hint" : ""
 
 "role.morphing.name" : "モーフィング"
 "role.morphing.short" : "擬態"
@@ -750,6 +795,7 @@
 "role.morphing.help.morph" : "擬態"
 "role.morphing.morphCoolDown" : "擬態クールダウン"
 "role.morphing.morphDuration" : "擬態の有効時間"
+"role..hint" : ""
 
 "role.painter.name" : "ペインター"
 "role.painter.short" : "塗師"
@@ -760,6 +806,7 @@
 "role.painter.sampleCoolDown" : "サンプル取得クールダウン"
 "role.painter.paintCoolDown" : "塗り替えクールダウン"
 "role.painter.changeLookImmediately" : "即座な見た目の変化"
+"role..hint" : ""
 
 "role.raider.name" : "レイダー"
 "role.raider.short" : "斧"
@@ -770,6 +817,7 @@
 "role.raider.axeSize" : "斧の大きさ"
 "role.raider.axeSpeed" : "斧の投げ速度"
 "role.raider.canKillImpostors" : "インポスター陣営への誤射"
+"role..hint" : ""
 
 "role.reaper.name" : "リーパー"
 "role.reaper.short" : "死神"
@@ -778,6 +826,7 @@
 "role.reaper.help.dragAndDrop" : "死体を掴む･離す\n死体を掴んだままベントに入る事も可能"
 "role.reaper.ventCoolDown" : "ベントクールダウン"
 "role.reaper.ventDuration" : "ベント潜伏時間"
+"role..hint" : ""
 
 "role.sniper.name" : "スナイパー"
 "role.sniper.short" : "狙撃"
@@ -794,6 +843,7 @@
 "role.sniper.aimAssistDelay" : "エイムアシストの表示遅延"
 "role.sniper.aimAssistDuration" : "エイムアシストの表示時間"
 "role.sniper.nearMessage" : "周囲に不可視のプレイヤーが存在"
+"role..hint" : ""
 
 "role.arsonist.name" : "アーソニスト"
 "role.arsonist.short" : "放火"
@@ -805,6 +855,7 @@
 "role.arsonist.douseCoolDown" : "塗りのクールダウン"
 "role.arsonist.douseRange" : "油塗りの範囲"
 "role.arsonist.canUseVents" : "ベントの使用"
+"role..hint" : ""
 
 "role.chainShifter.name" : "チェインシフター"
 "role.chainShifter.short" : "チェ"
@@ -816,6 +867,7 @@
 "role.chainShifter.guesserMode.dontShift" : "交換しない"
 "role.chainShifter.guesserMode.erase" : "消去"
 "role.chainShifter.guesserMode.shift" : "交換"
+"role..hint" : ""
 
 "role.empiric.name" : "エンパイリック"
 "role.empiric.short" : "藪医"
@@ -830,6 +882,7 @@
 "role.empiric.canUseVents" : "ベントの使用"
 "role.empiric.ventCoolDown" : "ベントクールダウン"
 "role.empiric.ventDuration" : "ベント潜伏時間"
+"role..hint" : ""
 
 "role.jackal.name" : "ジャッカル"
 "role.jackal.short" : "ジャ"
@@ -839,6 +892,7 @@
 "role.jackal.canCreateSidekick" : "サイドキックの生成"
 "role.jackal.killCoolDown" : "キルクールダウン"
 "role.jackal.numOfKillingToCreateSidekick" : "サイドキック生成に必要な殺害数"
+"role..hint" : ""
 
 "role.sidekick.name" : "サイドキック"
 "role.sidekick.short" : "サイ"
@@ -848,6 +902,7 @@
 "role.sidekick.takeOverOriginalRole" : "サイドキックの役職塗り替え"
 "role.sidekick.canCreateSidekick" : "サイドキックによるサイドキックの生成"
 "role.sidekick.canUseVents" : "ベントの使用"
+"role..hint" : ""
 
 "role.jester.name" : "ジェスター"
 "role.jester.short" : "てる"
@@ -862,6 +917,7 @@
 "role.jester.ventDuration" : "ベント潜伏時間"
 "role.jester.canDragBodies" : "死体掴みと移動"
 "role.jester.canFireBlankShots" : "空砲の発射"
+"role..hint" : ""
 
 "role.opportunist.name" : "オポチュニスト"
 "role.opportunist.short" : "オポ"
@@ -899,14 +955,17 @@
 "role.opportunist.task.staying.innermost" : "アスタリスク"
 "role.opportunist.task.staying.lounge" : "ラウンジ"
 "role.opportunist.task.staying.decontamination" : "除染室"
+"role..hint" : ""
 
 "role.diamondPossessor.name" : "ダイヤの所持者"
 "role.diamondPossessor.short" :"ダイ"
 "role.diamondPossessor.info" : ""
+"role..hint" : ""
 
 "role.teamSanta.name" : "サンタクロース陣営"
 "role.teamSanta.short" : "サ陣"
 "role.teamSanta.info" : "サンタクロース陣営の一員として迎えられました"
+"role..hint" : ""
 
 "role.santaClaus.name" : "サンタクロース"
 "role.santaClaus.short" : "良サ"
@@ -918,6 +977,7 @@
 "role.santaClaus.maxPresents" : "最大プレゼント"
 "role.santaClaus.killCoolDown" : "キルクールダウン"
 "role.santaClaus.occupyDoubleRoleCount" : "二役をこなすか"
+"role..hint" : ""
 
 "role.blackSanta.name" : "ブラックサンタ"
 "role.blackSanta.short" : "悪サ"
@@ -925,6 +985,7 @@
 "role.blackSanta.info" : "殺害が出来るほか、死体を隠してしまう事が可能"
 "role.blackSanta.help.capture" : "死体を袋に詰めて消去"
 "role.blackSanta.help.release" : "袋に詰めた死体を出して設置"
+"role..hint" : ""
 
 "role.vulture.name" : "ヴァルチャー"
 "role.vulture.short" : "禿鷲"
@@ -935,6 +996,7 @@
 "role.vulture.eatCoolDown" : "捕食クールダウン"
 "role.vulture.ventCoolDown" : "ベントクールダウン"
 "role.vulture.ventDuration" : "ベント潜伏時間"
+"role..hint" : ""
 
 "role.crewmate.secret.name" : "???"
 "role.impostor.secret.name" : "???"
@@ -944,6 +1006,7 @@
 "role.impostor.secret.description" : "プレイヤーを殺害し、覚醒せよ"
 "role.crewmate.secret.info" : "あなたの力はまだ眠っている\n真の役職は、タスクをいくつかこなす事で覚醒します"
 "role.impostor.secret.info" : "あなたの力はまだ眠っている\n真の役職は、殺害をする事で覚醒します"
+"role..hint" : ""
 
 "role.extra.chanceCategory1" : "割り当てカテゴリ　1"
 "role.extra.chanceCategory2" : "割り当てカテゴリ 2"
@@ -1063,6 +1126,7 @@
 "role.poltergeist.help.poltergeist" : "死体を引き寄せる"
 "role.poltergeist.poltergeistCoolDown" : "ポルターガイスト能力クールダウン"
 "role.poltergeist.hasCrewmateTask" : "クルーメイトのタスクをする必要があるか"
+"role.poltergaist.hint" : ""
 
 "side.crewmate.name" : "クルーメイト"
 "side.impostor.name" : "インポスター"
