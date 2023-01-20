@@ -1019,7 +1019,7 @@
 "role.player.short" : "プレ"
 "role.player.description" : "ゲームは間もなく始まる"
 "role.player.info" : "鬼ごっこモードでは、初めは全員がプレイヤーに割り振られます\nゲーム開始から10秒後に、ハレー･ポリスに変化します"
-"role.player.tab" : "あなたはゲームプレイヤーです"
+"role.player.hint" : "あなたはゲームプレイヤーです"
 
 "role.halley.name" : "ハレー"
 "role.halley.short" : "ハ"
