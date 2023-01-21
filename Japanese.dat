@@ -615,14 +615,15 @@
 "role.impostor.info" : "特殊能力を持たない<color=#ff1919ff>インポスター</color>"
 
 "role.banshee.name" :"バンシー"
-"role.banshee."short" : "バン"
+"role.banshee.short" : "バン"
 "role.banshee.description" : "死を予知しろ"
 "role.banshee.hint" : "死を予知しろ"
 "role.banshee.info" : "死が予測可能\n会議の後、遠隔で全ての予知された物を者を殺害可能"
 "role.banshee.weepCoolDown" : "ウィープクールダウン"
 "role.banshee.weepDuration" : "ウィープ時間"
 "role.banshee.theDeathCreeps" : "デス・クリープス"
-"role.banshee.minofWeepNoticeRange" : "ウィープ通知範囲の最小値"
+"role.banshee.minOfWeepNoticeRange" : "ウィープ通知範囲の最小値"
+"role.banshee.fuzzinessWeepNotice" : "不鮮明なウィープ通知"
 
 "role.bountyHunter.name" : "バウンティハンター"
 "role.bountyHunter.short" : "賞金"
@@ -668,7 +669,6 @@
 "role.disturber.name" : "ディスターバー"
 "role.disturber.short" : "妨害"
 "role.disturber.description" : "妨害せよ"
-
 "role.disturber.info" : "ポールを設置すると2本の対となったポール間に障壁を発生させられるようになります。障壁は船の電力を奪い、軽微な停電を引き起こします"
 "role.disturber.help.disturb" : "ポールを設置します\nポールを設置しきっている場合は障壁を発生させます"
 "role.disturber.disturbCoolDown" : "妨害クールダウン"
