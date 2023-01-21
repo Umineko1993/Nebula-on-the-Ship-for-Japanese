@@ -343,7 +343,7 @@
 "role.guesser.impostorRoleCount" : "最大人数(インポスター)"
 "role.guesser.neutralRoleCount" : "最大人数(第三陣営)"
 "role.secondaryGuesser.description" : "推察しろ"
-"role..hint" : ""
+"role.guesser.hint" : ""
 
 "role.tracker.name" : "トラッカー"
 "role.tracker.help.track" : "追跡するプレイヤーを選択"
@@ -356,7 +356,7 @@
 "role.tracker.canChangeTrackingTargetInMeegingOption" : "会議中での追跡対象の変更"
 "role.tracker.evilTrackerCanTrackImpostors" : "イビルトラッカーによるインポスターの常時追跡"
 "role.tracker.evilTrackerCanKnowImpostorsKill" : "イビルトラッカーへのインポスター殺害通知"
-"role..hint" : ""
+"role.tracker.hint" : ""
 
 "role.trapper.name" : "トラッパー"
 "role.trapper.help.accel" : "加速トラップを設置可能。1回緊急招集を跨いで全員に見えるようになります"
@@ -375,7 +375,7 @@
 "role.trapper.killTrapCost" : "殺害トラップの設置コスト"
 "role.trapper.rootTime" : "トラップ設置時の硬直時間"
 "role.trapper.killTrapAudibleDistance" : "殺害トラップ設置音の可聴範囲"
-"role..hint" : ""
+"role.trapper.hint" : ""
 
 "role.agent.name" : "エージェント"
 "role.agent.short" : "仲介"
@@ -386,7 +386,7 @@
 "role.agent.actOverTasks" : "一回当たりのタスク代行数"
 "role.agent.maxVents" : "ベントの使用可能回数"
 "role.agent.killCoolDownBonus" : "キルクールダウンボーナス"
-"role..hint" : ""
+"role.agent.hint" : ""
 
 "role.alien.name" : "エイリアン"
 "role.alien.short" : "エイ"
@@ -398,14 +398,14 @@
 "role.alien.emiRange" : "E.M.I. の有効範囲"
 "role.alien.emiInhibitsCrewmates" : "E.M.I. がクルー陣営に負の効果をもたらす"
 "role.alien.countOfCallingSabotage" : "サボタージュ使用可能回数"
-"role..hint" : ""
+"role.alien.hint" : ""
 
 "role.bait.name" : "ベイト"
 "role.bait.short" : "餌"
 "role.bait.description" : "敵を嵌めろ"
 "role.bait.info" : "自身が殺害されると、殺人者は即座にレポートさせられます"
 "role.bait.killerCanKnowBaitKillByFlash" : "殺人鬼にフラッシュ表示"
-"role..hint" : ""
+"role.bait.hint" : ""
 
 "role.busker.name" : "バスカー"
 "role.busker.short" : "大道"
@@ -415,7 +415,7 @@
 "role.busker.help.revive" : "復活します\n船内でのみ復活可能\n時間内に復活しない場合、復活ボタンが消滅し、完全に死んでしまいます"
 "role.busker.buskCoolDown" : "偽装死クールダウン"
 "role.busker.buskDuration" : "復活までの猶予時間"
-"role..hint" : ""
+"role.busker.hint" : ""
 
 "role.comet.name" : "コメット"
 "role.comet.short" : "彗星"
@@ -427,7 +427,7 @@
 "role.comet.boostSpeed" : "加速倍率"
 "role.comet.boostVisionRate" : "加速時の視界拡大率"
 "role.comet.boostViewRate" : "加速時の視野拡大率"
-"role..hint" : ""
+"role.comet.hint" : ""
 
 "role.doctor.name" : "ドクター"
 "role.doctor.short" : "医者"
@@ -438,7 +438,7 @@
 "role.doctor.chargesPerTasks" : "タスク完了時のガジェット充電時間"
 "role.doctor.gadgetLeft" : "%SECOND% 秒"
 "role.doctor.batteryIsEmpty" : "バッテリー切れ"
-"role..hint" : ""
+"role.doctor.hint" : ""
 
 "role.guardian.name" : "ガーディアン"
 "role.guardian.short" : "守護"
@@ -453,7 +453,7 @@
 "role.guardian.alertInterval" : "警報間隔(秒)"
 "role.guardian.canIdentifyDeadBody" : "マップ上で死体を赤く表示"
 "role.guardian.showGuardFlash" : "ガード成功時のフラッシュ"
-"role..hint" : ""
+"role.guardian.hint" : ""
 
 "role.mayor.name" : "メイヤー"
 "role.mayor.short" : "市長"
@@ -465,7 +465,7 @@
 "role.mayor.maxVote" : "最大投票数"
 "role.mayor.maxVoteStock" : "票の最大割り当て"
 "role.mayor.haveRemoteEmergencyButton" : "遠隔の緊急招集ボタンを使用出来るか"
-"role..hint" : ""
+"role.mayor.hint" : ""
 
 "role.navvy.name" : "ナヴィ"
 "role.navvy.short" : "整備"
