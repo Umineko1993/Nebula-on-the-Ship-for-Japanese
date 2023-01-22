@@ -621,8 +621,8 @@
 "role.banshee.info" : "死が予測可能\n会議の後、遠隔で全ての予知された物を者を殺害可能"
 "role.banshee.weepCoolDown" : "ウィープクールダウン"
 "role.banshee.weepDuration" : "ウィープ時間"
-"role.banshee.theDeathCreeps" : "デス・クリープス"
-"role.banshee.minOfWeepNoticeRange" : "ウィープ通知範囲の最小値"
+"role.banshee.theDeathCreeps" : "デス・クリープ"
+"role.banshee.minWeepNoticeRange" : "ウィープ通知範囲の最小値"
 "role.banshee.fuzzinessWeepNotice" : "不鮮明なウィープ通知"
 
 "role.bountyHunter.name" : "バウンティハンター"
