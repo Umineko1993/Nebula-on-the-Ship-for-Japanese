@@ -26,7 +26,7 @@
 "config.option.prioritizeAmongUs.confirm" : "この設定はより良いパフォーマンスと引き換えに\nシステムの動作が不安定になる恐れがあります\nそれでも変更しますか?"
 "config.option.timeoutExtension" : "タイムアウト猶予"
 "config.option.dontCareMismatchedNoS" : "Nebulaのバージョンチェックを無効化\n(ホストのみ)"
-"config.option.preventSpoiler" : "ネタバレ防止"
+"config.option.preventSpoiler" : "ネタバレ防止(個別設定)"
 
 "config.option.yes" : "はい"
 "config.option.no" : "いいえ"
@@ -51,8 +51,8 @@
 
 "gamemode.standard" : "標準"
 "gamemode.minigame" : "鬼ごっこ"
-"gamemode.ritual" : "近日公開"
-"gamemode.investigators" : "近日公開"
+"gamemode.ritual" : "儀式(近日公開)"
+"gamemode.investigators" : "調査隊(近日公開)"
 "gamemode.freePlay" : "フリープレイ"
 
 "cosmic.package.innerslothHats" : "Innerslothの帽子"
@@ -158,7 +158,7 @@
 "option.seismicStabilizersTimeLimit" : "猶予時間(ポーラス)"
 "option.avertCrashTimeLimit" : "猶予時間(エアシップ)"
 "option.blackOutStrength" : "停電の強度"
-"option.canUseDoorDespiteSabotage" : "緊急サボタージュ中の扉閉め(エアシップ)"
+"option.canUseDoorDespiteSabotage" : "サボタージュ中の扉閉め(エアシップ)"
 
 "option.exclusiveAssignment" : "役職の排他的割り当て"
 "option.exclusiveAssignment.MorphingAndPainter" : "モーフィング or ペインター"
@@ -230,7 +230,7 @@
 "option.randomizedWiring" : "配線順序のランダム化"
 "option.stepsOfWiring" : "配線タスクのステップ数"
 "option.meistersManifolds" : "難化：マニフォールド"
-"option.meistersO2Filter" : "難化：O2フィルター"
+"option.meistersO2Filter" : "難化：酸素室フィルター"
 "option.meistersFuelEngines" : "難化：給油"
 "option.dangerousDownloadSpot" : "ダウンロードタスク位置の移動(エアシップ)"
 "option.useVanillaSafeTask" : "通常の貨物室金庫タスクするか(エアシップ)"
@@ -1165,7 +1165,7 @@
 "game.endText.santa" : "サンタクロース陣営勝利<color=#ffffffff>と良い子達</color>の勝利"
 "game.endText.rightGuess" : "ミッション成功"
 "game.endText.wrongGuess" : "ミッション失敗"
-"game.endText.noGame" : "無効なゲーム"
+"game.endText.noGame" : "無効試合"
 "game.endText.nobody" : "誰もいなくなった"
 "game.endText.nobody.skeld" : "スケルド号、終わりなき船旅へ"
 "game.endText.nobody.mira" : "<color=#ff1919ff>S.O.S.</color>本社制御不能"
