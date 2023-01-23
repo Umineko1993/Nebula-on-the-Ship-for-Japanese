@@ -1311,7 +1311,7 @@
 "help.contents.maps" : "マップ"
 "help.contents.general.button" : "ボタン操作"
 "help.contents.general.button.detail" : "ゲーム中に使用可能なボタンはマウスクリックやキー操作によって使用可能\nボタンに対応するキーがボタン右上に表示されており、キー割り当ては変更可能"
-"help.contents.general.button.killButtonDetail" : "スナイパーとレイダーのキルボタンは、画面中央付近をクリックすることによっても使用が可能\nクリックできる範囲は下の塗りつぶされていない部分の通りです"
+"help.contents.general.button.killButtonDetail" : "スナイパーとレイダーのキルボタンは、画面中央付近をクリックすることによっても使用が可能\nクリック可能な範囲は下の塗りつぶされていない部分の通りです"
 "help.contents.roles.deadBodiesDragging" : "死体を動かせる役職"
 "help.contents.roles.deadBodiesDragging.detail" : "死体移動が出来る役職があります\n該当役職は下の通りです\n\n<color=#6e33a3ff><b>ネクロマンサー</b></color>(<color=#8cffffff>クルーメイト</color>)\nネクロマンサーは、死体を指定された部屋に持っていく事でプレイヤーを復活させる事が可能\n<color=#f51818ff><b>リーパー</b></color>(<color=#f51818ff>インポスター</color>)\nリーパーはすべてのベントが繋がっており、死体を持ち込む事が可能\n<color=#fd54a7ff><b>ジェスター</b></color>(<color=#ffaa00ff>第三陣営</color>)\nジェスター(てるてる)は自身が追放される為にこれらの能力を駆使します"
 "help.contents.maps.onewayMeetingRoom" : "ミーティングルーム一方通行化(エアシップ)"
