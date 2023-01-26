@@ -295,6 +295,7 @@
 "role.guesser.isSecondaryRole" : "追加役職としての割り当て"
 "role.guesser.guesserShots" : "ゲッサーの推察可能回数"
 "role.guesser.guessesLeft" : "残り推察回数"
+"role.guesser.additionalVotingTime" : "推察殺害が発生した際の追加投票時間"
 "role.guesser.crewmateRoleCount" : "最大人数(クルーメイト)"
 "role.guesser.impostorRoleCount" : "最大人数(インポスター)"
 "role.guesser.neutralRoleCount" : "最大人数(第三陣営)"
