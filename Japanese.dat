@@ -123,7 +123,7 @@
 "option.severeEmergencyLock" : "AND条件による緊急招集ロック"
 "option.dealAbstentionAsSelfVote" : "白票の自投票化"
 "option.hideVotedIcon" : "投票状態の秘匿化"
-"option.showRoleOfExiled" : "追放時に役職を表示"
+"option.showRoleOfExiled" : "追放時に役職を表示\n(公式設定の追放確認有効時機能)"
 
 "option.mapOptions" : "マップ設定"
 "option.playRandomMaps" : "ランダムマップ"
