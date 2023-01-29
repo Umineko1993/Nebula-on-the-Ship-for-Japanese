@@ -939,7 +939,7 @@
 "role.spectre.info" : "勝利まで生き残らなければいけない\nタスクをこなす事で透明化する事が可能"
 "role.spectre.spawnImmoralist" : "背徳者の役職有無"
 "role.spectre.occupyDoubleRoleCount" : "ロール割り当て2つ分の占有"
-"role.spectre.tasksForClarifyCharge" : "透明化するまでに必要なタスク数"
+"role.spectre.clarifyCharge" : "透明化するまでに必要なタスク数"
 "role.spectre.clarifyDuration" : "透明化時間"
 "role.spectre.clarifyCoolDown" : "透明化クールダウン"
 "role.spectre.canTakeOverSabotageWin" : "妨害勝利乗っ取り"
