@@ -614,6 +614,10 @@
 "role.impostor.hint" : "クルーメイトを殺害せよ"
 "role.impostor.info" : "特殊能力を持たない<color=#ff1919ff>インポスター</color>"
 
+"role.lastImpostor.name" : "ラストインポスター"
+"role.lastImpostor.info" : "あなたは最後のインポスターです\n現在の村に妖狐が存在している\n妖狐を推察して勝利を掴め"
+"role.lastImpostor.guessGuiTitle": "誰が妖狐か推察せよ"
+
 "role.banshee.name" :"バンシー"
 "role.banshee.short" : "バン"
 "role.banshee.description" : "死が迫り来る"
@@ -942,6 +946,8 @@
 "role.spectre.clarifyCharge" : "透明化するまでに必要なタスク数"
 "role.spectre.clarifyDuration" : "透明化時間"
 "role.spectre.clarifyCoolDown" : "透明化クールダウン"
+"role.spectre.clarifyCoolDown" : "透明化クールダウン"
+"role.spectre.lastImpostorCanGuessSpectre" : "ラストインポスターの推察で妖狐を推察可能か"
 "role.spectre.canTakeOverSabotageWin" : "妨害勝利乗っ取り"
 "role.spectre.canTakeOverTaskWin" : "タスク勝利乗っ取り"
 "role.spectre.ventCoolDown" : "ベント使用クールダウン"
@@ -1286,6 +1292,7 @@
 "button.label.void" : "GM"
 "button.label.suicide" : "自殺"
 "button.label.clarify" : "透明化"
+"button.label.guess" : "推察"
 
 "location.cafeteria" : "カフェテリア"
 "location.weapons" : "武器室"
