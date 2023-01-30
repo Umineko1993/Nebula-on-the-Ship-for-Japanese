@@ -7,8 +7,8 @@
 "title.button.getStableNebula" : "通常版のNebulaに変更"
 "title.button.existNewerNebula" : "新バージョンのNoSは\n現在のAmong Usに\n対応してません"
 "title.button.updateNebulaSnapshot" : "開発版のNebulaを更新"
-"title.button.twitter" : "作者Twitter"
-"title.button.discord" : "Discord"
+"title.button.twitter" : "Nebula Twitter"
+"title.button.discord" : "Nebula Discord"
 
 "config.debug.snapshot" : "開発版を使用"
 "config.debug.outputHash" : "画像ハッシュ値を出力"
