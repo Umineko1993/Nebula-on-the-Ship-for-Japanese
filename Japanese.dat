@@ -940,7 +940,7 @@
 "role.spectre.short" : "狐"
 "role.spectre.description" : "船の上の調停者"
 "role.spectre.hint" : "隠れて油揚げを食せ"
-"role.spectre.info" : "油揚げを食べきって生存する事で勝利ｈ\n透明化を利用し隠れる事が可能"
+"role.spectre.info" : "油揚げを食べきって生存する事で勝利\n透明化を利用し隠れる事が可能"
 "role.spectre.spawnImmoralist" : "背徳者の役職有無"
 "role.spectre.occupyDoubleRoleCount" : "ロール割り当て2つ分の占有"
 "role.spectre.numOfTheFriedRequiredToWin" : "勝利に必要な油揚げを食べる数"
@@ -953,6 +953,7 @@
 "role.spectre.canTakeOverTaskWin" : "タスク勝利乗っ取り"
 "role.spectre.ventCoolDown" : "ベント使用クールダウン"
 "role.spectre.ventDuration" : "ベント潜伏時間"
+"role.spectre.eatTheFriedSecretly" : "油揚げを食べる数"
 
 "role.immoralist.name" : "背徳者"
 "role.immoralist.short" : "背徳"
