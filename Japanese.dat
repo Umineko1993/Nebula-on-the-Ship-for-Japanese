@@ -730,6 +730,7 @@
 "role.executioner.description" : "遠距離殺害を成功させろ"
 "role.executioner.hint" : "遠く離れたクルーメイトを殺せ"
 "role.executioner.info" : "キルボタンを押すと、遠距離にいるプレイヤーを殺害をする事が可能\nプレイヤーの居る方向を向かなければいけない"
+"role.executioner.killCoolDownOddsOnFailed" : "殺害失敗時の追加キルクールダウン"
 "role.executioner.help.killRange" : "殺害範囲表示"
 
 "role.jailer.name" : "ジェイラー"
@@ -870,6 +871,7 @@
 "role.immoralist.info" : "妖狐を補助して勝利する"
 "role.immoralist.showDeathFlash" : "誰かが死亡した時に画面が点滅"
 "role.immoralist.canKnowWhereIsDeadBodies" : "死体位置が分かる"
+"role.immoralist.canFixLightsAndComms" : "停電･コミュサボを直せるか"
 
 "role.jackal.name" : "ジャッカル"
 "role.jackal.short" : "ジャ"
@@ -978,6 +980,7 @@
 "role.spectre.hint" : "隠れて油揚げを食せ"
 "role.spectre.info" : "油揚げを食べきって生存する事で勝利\n透明化を利用し隠れる事が可能"
 "role.spectre.spawnImmoralist" : "背徳者の役職有無"
+"role.spectre.spectreTaskMode" : "妖狐のタスクモード"
 "role.spectre.occupyDoubleRoleCount" : "ロール割り当て2つ分の占有"
 "role.spectre.numOfTheFriedRequiredToWin" : "勝利に必要な油揚げを食べる数"
 "role.spectre.clarifyCharge" : "透明化可能回数"
@@ -985,6 +988,7 @@
 "role.spectre.clarifyCoolDown" : "透明化クールダウン"
 "role.spectre.clarifyCoolDown" : "透明化クールダウン"
 "role.spectre.lastImpostorCanGuessSpectre" : "ラストインポスターの推察で妖狐を推察可能か"
+"role.spectre.canFixEmergencySabotage" : "緊急サボタージュを直せるか"
 "role.spectre.canTakeOverSabotageWin" : "妨害勝利乗っ取り"
 "role.spectre.canTakeOverTaskWin" : "タスク勝利乗っ取り"
 "role.spectre.ventCoolDown" : "ベント使用クールダウン"
