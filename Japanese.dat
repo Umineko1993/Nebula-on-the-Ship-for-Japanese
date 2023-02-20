@@ -1132,6 +1132,8 @@
 "role.lover.mode.avenger" : "アヴェンジャー"
 "role.lover.chanceThatOneLoverIsImpostor" : "片方がインポスターから選ばれる確率"
 "role.lover.loversAsIndependentSide" : "単独陣営としての恋人"
+"role.lover.allowExtraWinning" : "追加勝利が可能"
+"role.lover.allowExtraWinning.info" : "追加勝利が可能か"
 "role.lover.canChangeTrilemma" : "トリレマへの進化"
 "role.lover.additionalEndText" : " <color=#ffffffff>+</color> <color=#fb02beff>恋人</color>"
 
