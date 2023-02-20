@@ -912,7 +912,8 @@
 "role.empiric.description" : "感染させろ"
 "role.empiric.hint" : "病気を広めろ"
 "role.empiric.info" : "全員を未知の病気に感染させる事によって勝利します\n自身が死亡していても勝利出来る可能性があります"
- 
+"role.empiric.help.infect" : "プレイヤーを感染させます\n感染したプレイヤーが他プレイヤーに伝染させている様子は、\n画面左下で確認可能"
+
 "role.empiric.maxInfectMyself" : "自分自身による感染可能数"
 "role.empiric.infectDuration" : "感染に要する時間"
 "role.empiric.infectRange" : "感染範囲"
