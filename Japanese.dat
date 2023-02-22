@@ -303,9 +303,12 @@
 
 "option.advanceRoleOptions" : "役職拡張設定"
 
+"option.roleCount" : "最大人数"
+"option.roleCount.includImpostor" : "インポスターを含める人数"
+"option.roleCount.nice" : "ナイス"
+"option.roleCount.evil" : "イビル"
 "option.roleChance" : "スポーン確率"
 "option.roleChanceSecondary" : "スポーン確率(2人目~)"
-"option.roleCount" : "最大人数"
 
 "option.canBeLovers" : "付与可能：恋人"
 "option.canBeGuesser" : "付与可能：ゲッサー"
@@ -348,7 +351,6 @@
 "role.guesser.info" : "会議中に、他人の役職を推察して殺害する事が可能\n推察が間違っていた場合、自身が代わりに死亡します"
 "role.guesser.help.guess" : "会議中に、各プレイヤーの上に現れます\nクリックすると推察画面が開きます"
 "role.guesser.chanceToSpawnAsSecondarySide" : "インポスターへの割り当て確率"
-"role.guesser.definitiveAssignment" : "決定的な役職割り当て"
 "role.guesser.canShotSeveralTimes" : "同一の会議での複数回の推察"
 "role.guesser.isSecondaryRole" : "追加役職としての割り当て"
 "role.guesser.guesserShots" : "ゲッサーの推察可能回数"
@@ -363,7 +365,6 @@
 "role.tracker.help.track" : "追跡するプレイヤーを選択"
 "role.tracker.help.meeting" : "選択したプレイヤーのタスクの進捗状況を確認する事が可能\n設定によって追跡するプレイヤーを変更します"
 "role.tracker.chanceToSpawnAsSecondarySide" : "インポスターへの割り当て確率"
-"role.tracker.definitiveAssignment" : "決定的な役職割り当て"
 "role.tracker.canChangeTrackingTarget" : "追跡対象の変更可能にする"
 "role.tracker.changeTargetCoolDown" : "対象変更の変更クールダウン"
 "role.tracker.canUseMeetingActionOption" : "緊急会議行動"
@@ -377,7 +378,6 @@
 "role.trapper.help.kill" : "殺害トラップを設置。緊急招集を跨いでも、\nトラッパー以外のプレイヤーからは視認不可能\n自身のキルクールを消費して、\nトラップを踏んだプレイヤーを殺害後、\nトラップの残骸が残る"
 "role.trapper.help.comm" : "通知トラップを設置。緊急招集を跨いでも、\nトラッパー以外のプレイヤーからは視認不可能\nトラップを踏んだプレイヤーの色が矢印によって通知されます"
 "role.trapper.chanceToSpawnAsSecondarySide" : "インポスターへの割り当て確率"
-"role.trapper.definitiveAssignment" : "決定的な役職割り当て"
 "role.trapper.maxTraps" : "トラップの最大設置数"
 "role.trapper.placeCoolDown" : "設置クールダウン"
 "role.trapper.accelSpeed" : "トラップの加速倍率"
