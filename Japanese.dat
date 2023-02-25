@@ -1223,7 +1223,7 @@
 
 "role.metaRole.name" : "フリープレイ"
 "role.metaRole.short" : "フリ"
-"role.metaRole.info" : "様々な役職を試す事が可能\n2点間の距離を測る事が可能\n\n - 1 : 現在位置を距離計測の基点にする\n - 2 : 役職変更\n - 3 : 自殺\n - 4 : 復活"
+"role.metaRole.info" : "様々な役職を試す事が可能\n真ん中のボタンが役職変更、右のボタンが自殺･復活"
 
 "role.poltergeist.name" : "ポルターガイスト"
 "role.poltergeist.short" : "ポル"
