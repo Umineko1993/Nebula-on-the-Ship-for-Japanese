@@ -292,6 +292,7 @@
 "option.killCoolDownProceedIgnoringSecurityCamera" : "カメラ操作中"
 "option.killCoolDownProceedIgnoringBlackOutGame" : "配電盤操作中"
 "option.killCoolDownProceedIgnoringCommReceiver" : "コミュサボ復旧中"
+"option.killCoolDownProceedIgnoringEmgSabotage" : "緊急サボタージュ中"
 
 "option.secretRole" : "シークレット役職"
 "option.secretCrewmate" : "最大人数(クルーメイト)"
@@ -1223,7 +1224,7 @@
 
 "role.metaRole.name" : "フリープレイ"
 "role.metaRole.short" : "フリ"
-"role.metaRole.info" : "様々な役職を試す事が可能\n真ん中のボタンが役職変更、右のボタンが自殺･復活"
+"role.metaRole.info" : "様々な役職を試す事が可能\n左のボタンがデコレーションの仮置き\n真ん中のボタンが役職変更\n右のボタンが自殺･復活"
 
 "role.poltergeist.name" : "ポルターガイスト"
 "role.poltergeist.short" : "ポル"
