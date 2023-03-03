@@ -361,6 +361,7 @@
 "role.guesser.impostorRoleCount" : "最大人数(インポスター)"
 "role.guesser.neutralRoleCount" : "最大人数(第三陣営)"
 "role.secondaryGuesser.description" : "推察しろ"
+"role.guesser.spawnableRoleFilter" : "スポーン可能な役職フィルター"
 
 "role.tracker.name" : "トラッカー"
 "role.tracker.help.track" : "追跡するプレイヤーを選択"
@@ -1451,6 +1452,26 @@
 "help.contents.tasks.additionalWirings.detail" : "エアシップでは、通信室前・武器庫・金庫室・医務室に新たな配線タスクを追加します\n\n必要な設定:\nマップオプション : オン\n追加配線タスクの有効化 : オン"
 "help.contents.tasks.safeTask" : "金庫タスクの部分差し替え(エアシップ)"
 "help.contents.tasks.safeTask.detail" : "エアシップの金庫タスクの第一段階を変更します\n紙に書かれた暗証番号を入力する事で次の段階に進む事が可能\n\n金庫は秘密保護の為、途中の入力状態は表示しません\n\n必要な設定:\nタスクマイスタモード : オン\n通常の貨物室金庫タスクするか(エアシップ) : オフ"
+
+"help.assignable.filter.gameMode" : "ゲームモード"
+"help.assignable.filter.spawnable" : "スポーン可能な役職"
+"help.assignable.filter.crewmate" : "クルーメイト"
+"help.assignable.filter.impostor" : "インポスター"
+"help.assignable.filter.neutral" : "第三陣営"
+
+"help.header.myRoles" : "自分の役職"
+"help.header.roles" : "役職"
+"help.header.ghostRoles" : "幽霊役職"
+"help.header.modifiers" : "追加役職"
+"help.header.options" : "ルール"
+"help.header.help" : "ヘルプ"
+
+"help.index.myRoles" : "自分の役職"
+"help.index.roles" : "役職"
+"help.index.ghostRoles" : "幽霊役職"
+"help.index.modifiers" : "追加役職"
+"help.index.options" : "ルール"
+"help.index.help" : "ヘルプ"
 
 "option.ritualOption" : "儀式用設定"
 "option.numOfMissions" : "ミッションの数"
