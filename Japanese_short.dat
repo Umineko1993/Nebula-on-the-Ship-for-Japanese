@@ -1464,6 +1464,7 @@
 "help.header.ghostRoles" : "幽霊役職"
 "help.header.modifiers" : "追加役職"
 "help.header.options" : "ルール"
+"help.header.spawnPoint" : "沸き位置"
 "help.header.help" : "ヘルプ"
 
 "help.index.myRoles" : "自分の役職"

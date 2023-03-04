@@ -1464,6 +1464,7 @@
 "help.header.ghostRoles" : "幽霊役職"
 "help.header.modifiers" : "追加役職"
 "help.header.options" : "ルール"
+"help.header.spawnPoints" : "沸き位置"
 "help.header.help" : "ヘルプ"
 
 "help.index.myRoles" : "自分の役職"
@@ -1472,6 +1473,8 @@
 "help.index.modifiers" : "追加役職"
 "help.index.options" : "ルール"
 "help.index.help" : "ヘルプ"
+
+"option.header.customize" : "カスタム"
 
 "option.ritualOption" : "儀式用設定"
 "option.numOfMissions" : "ミッションの数"
