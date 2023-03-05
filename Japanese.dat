@@ -921,7 +921,6 @@
 "role.empiric.hint" : "病気を広めろ"
 "role.empiric.info" : "全員を未知の病気に感染させる事によって勝利します\n自身が死亡していても勝利出来る可能性があります"
 "role.empiric.help.infect" : "プレイヤーを感染させます\n感染したプレイヤーが他プレイヤーに伝染させている様子は、\n画面左下で確認可能"
-
 "role.empiric.maxInfectMyself" : "自分自身による感染可能数"
 "role.empiric.infectDuration" : "感染に要する時間"
 "role.empiric.infectRange" : "感染範囲"
@@ -970,6 +969,7 @@
 "role.jester.canUseVents" : "ベント使用"
 "role.jester.canInvokeSabotage" : "サボタージュの発生"
 "role.jester.canFixLightsAndComms" : "停電・コミュサボの復旧"
+"role.jester.isGuessable" : "ゲッサーによる推察"
 "role.jester.ventCoolDown" : "ベントクールダウン"
 "role.jester.ventDuration" : "ベント潜伏時間"
 "role.jester.canDragBodies" : "死体掴みと移動"
@@ -1027,6 +1027,7 @@
 "role.paparazzo.winConditionSubject.allAlives.info" : "全て生存・1～15"
 "role.paparazzo.winConditionDisclosed" : "勝利条件(公開)"
 "role.paparazzo.winConditionDisclosed.info" : "勝利条件(公開)"
+"role.paparazzo.isGuessable" : "ゲッサーによる推察"
 "role.paparazzo.canUseVents" : "ベント使用"
 "role.paparazzo.canUseVents.info" : "ベント使用"
 "role.paparazzo.taskText" : "写真撮影 (%DETAIL%)"
