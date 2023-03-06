@@ -50,9 +50,6 @@
 "lobby.willEliminatedByMismatchVersion" : "Nebula on the Ship のバージョンがホストのバージョンと合致しません\nあと%STAY%秒で切断されます"
 
 "gamemode.standard" : "標準"
-"gamemode.minigame" : "鬼ごっこ"
-"gamemode.ritual" : "儀式(近日公開)"
-"gamemode.investigators" : "調査隊(近日公開)"
 "gamemode.freePlay" : "フリープレイ"
 
 "cosmic.package.innerslothHats" : "Innerslothの帽子"
@@ -1174,37 +1171,11 @@
 "role.perkHolder.short" : "パク"
 "role.perkHolder.info" :""
 
-"role.investigator.name" : "インヴェスティゲーター"
-"role.investigator.short" : "調査"
-"role.investigator.description" : "正体を見極めろ"
-
-"role.gambler.name" : "ギャンブラー"
-"role.gambler.short" : "賭博"
-"role.gambler.description" : "今宵の祝杯を掴め"
-
 "role.player.name" : "プレイヤー"
 "role.player.short" : "プレ"
 "role.player.hint" : "あなたはゲームプレイヤーです"
-"role.player.description" : "ゲームは間もなく始まる"
-"role.player.info" : "鬼ごっこモードでは、初めは全員がプレイヤーに割り振られます\nゲーム開始から10秒後に、ハレー･ポリスに変化します"
-
-"role.halley.name" : "ハレー"
-"role.halley.short" : "ハ"
-"role.halley.hint" : "あなたはゲームプレイヤーです"
-"role.halley.info" : "ハンターから逃げるか、タスクを全てこなす事で勝利出来ます"
-
-"role.biela.name" : "ビエラ"
-"role.biela.short" : "ビエ"
-"role.biela.hint" : "あなたはゲームプレイヤーです"
-"role.biela.info" : ""
-
-"option.escapeHunter" : "ハンター"
-
-"role.polis.name" : "ポリス"
-"role.polis.short" : "警察"
-"role.polis.hint" : "逃亡者を逮捕せよ"
-"role.polis.info" : "制限時間内に逃走者を全員捕まえる事で勝利します"
-"role.polis.arrestCoolDown" : "逮捕クールダウン"
+"role.player.description" : "あなたはゲームプレイヤーです"
+"role.player.info" : "あなたはゲームプレイヤーです"
 
 "role.hadar.name" : "ハダル"
 "role.hadar.short" : "ハダ"
@@ -1213,16 +1184,6 @@
 "role.hadar.damageRadius" : "ダメージ有効距離"
 "role.hadar.damageLevel" : "ダメージ強度"
 "role.hadar.reappearance" : "再出現クールダウン"
-
-"role.ritualCrewmate.name" : "クルーメイト"
-"role.ritualCrewmate.short" : "乗組"
-"role.ritualCrewmate.description" : "儀式から脱出せよ"
-"role.ritualCrewmate.info" : ""
-
-"role.killer.name" : "キラー"
-"role.killer.short" : "殺人"
-"role.killer.description" : "供物を捧げよ"
-"role.killer.info" : ""
 
 "role.metaRole.name" : "フリープレイ"
 "role.metaRole.short" : "フリ"
@@ -1249,7 +1210,6 @@
 "side.santaClaus.name" : "サンタクロース陣営"
 "side.investigator.name" : "インヴェスティゲーター"
 "side.gamePlayer.name" : "ゲームプレイヤー"
-"side.killer.name" : "キラー"
 "side.void.name" : "ボイド"
 
 "roles.category.default" : "標準"
@@ -1301,8 +1261,6 @@
 "game.endText.nobody.airship" : "誰のものでもない空へ告ぐ"
 "game.endText.hostDisconnected" : "[異常終了]ホスト切断"
 "game.endText.players" : "プレイヤー勝利"
-"game.endText.hunter" : "ハンター勝利"
-"game.endText.escapees" : "逃走者勝利"
 
 "game.endScreen.detail" : "詳細"
 "game.endScreen.close" : "閉じる"
@@ -1476,14 +1434,6 @@
 "help.index.help" : "ヘルプ"
 
 "option.header.customize" : "カスタム"
-
-"option.ritualOption" : "儀式用設定"
-"option.numOfMissions" : "ミッションの数"
-"option.lengthOfMission" : "ミッションの長さ"
-"option.killCoolDown" : "キルクールダウン"
-"option.killFailedPenalty" : "キル失敗ペナルティー"
-"option.searchCoolDown" : "探索クールダウン"
-"option.searchableDistance" : "探索有効範囲"
 
 "color.0.0" : "桃"
 "color.0.1" : "コーラル"
