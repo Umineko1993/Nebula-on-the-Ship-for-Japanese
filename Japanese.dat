@@ -320,10 +320,6 @@
 "option.suffix.minute" : "m"
 "option.suffix.percent" : "%"
 
-"ritual.mission.formularize" : "フォーミュラライズ"
-"ritual.rooms.bothEngines" : "アッパー&ロワー エンジン"
-"ritual.rooms.bothDecontaminations" : "除染室"
-
 "game.exile.roleText" : "%PLAYER%の役職は%ROLE%でした"
 
 "role.void.name" : "ボイド"
@@ -724,7 +720,7 @@
 "role.covert.name" : "コバート"
 "role.covert.short" : "コバ"
 "role.covert.description" : "最後に笑うのは誰だ"
-"role..hint" : "その時が来るまで潜伏しろ"
+"role.covert.hint" : "その時が来るまで潜伏しろ"
 "role.covert.info" : "共犯者がいなくなれば、殺せるようになる"
 
 "role.damned.name" : "呪われし者"
