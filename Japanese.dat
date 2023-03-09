@@ -320,6 +320,10 @@
 "option.suffix.minute" : "m"
 "option.suffix.percent" : "%"
 
+"option.hideAndSeekOption" : "かくれんぼ設定"
+"option.hideAndSeekOption.validPerks" : "有効なパーク数"
+"option.hideAndSeekOption.validPerks.info" : "有効なパーク数"
+
 "game.exile.roleText" : "%PLAYER%の役職は%ROLE%でした"
 
 "role.void.name" : "ボイド"
