@@ -852,7 +852,7 @@
 "role.raider.name" : "レイダー"
 "role.raider.short" : "斧"
 "role.raider.hint" : "斧を投げてクルーメイトを虐殺せよ"
-"role.raider.info" : "通常キルの代わりに斧を投げる事が可能\n投げられた斧に当たったプレイヤー全員を殺害可能"
+"role.raider.info" : "通常キルの代わりに斧を投げる事が可能\n投げられた斧に当たったプレイヤー全員を殺害可能" 
 "role.raider.description" : "暴れまわれ"
 "role.raider.help.equip" : "斧を装備･収納"
 "role.raider.help.axeSize" : "斧の当たる範囲を表示"
@@ -1207,10 +1207,10 @@
 "role.reaperHns.hint" : "死体を引きずって隠そう"
 "role.reaperHns.info" : "死体を引きずって隠そう"
 
-"role.hider.name" "ハイダー"
-"role.hider.short" "ハイ"
-"role.hider.hint" "隠れて最後まで生き残れ"
-"role.hider.info" "隠れて最後まで生き残れ"
+"role.hider.name" : "ハイダー"
+"role.hider.short" : "ハイ"
+"role.hider.hint" : "隠れて最後まで生き残れ"
+"role.hider.info" : "隠れて最後まで生き残れ"
 
 "role.hadarHnS.name" : "ハダル"
 "role.hadarHnS.short" : "ハダ"
