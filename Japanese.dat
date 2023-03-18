@@ -323,6 +323,8 @@
 "option.hideAndSeekOption" : "かくれんぼ設定"
 "option.hideAndSeekOption.validPerks" : "有効なパーク数"
 "option.hideAndSeekOption.validPerks.info" : "有効なパーク数"
+"option.hideAndSeekOption.mustDoTasksToWin" : "勝利にタスクをする必要があるか"
+"option.hideAndSeekOption.mustDoTasksToWin.info" : "勝利にタスクをする必要があるか"
 
 "game.exile.roleText" : "%PLAYER%の役職は%ROLE%でした"
 
@@ -1198,6 +1200,33 @@
 "role.poltergeist.hasCrewmateTask" : "クルーメイトのタスクをする必要があるか"
 "role.poltergaist.hint" : ""
 
+"role.seeker.name" : "鬼"
+
+"role.reaperHns.name" : "リーパー"
+"role.reaperHns.short" : "死神"
+"role.reaperHns.hint" : "死体を引きずって隠そう"
+"role.reaperHns.info" : "死体を引きずって隠そう"
+
+"role.hider.name" "ハイダー"
+"role.hider.short" "ハイ"
+"role.hider.hint" "隠れて最後まで生き残れ"
+"role.hider.info" "隠れて最後まで生き残れ"
+
+"role.hadarHnS.name" : "ハダル"
+"role.hadarHnS.short" : "ハダ"
+"role.hadarHnS.hint" : "逃走をを脅かせ"
+"role.hadarHnS.info" : "地中から湧き出ることで周囲の逃走者に恐怖を植え付けます"
+
+"role.cleanerHnS.name" : "クリーナー"
+"role.cleanerHnS.short" : "清掃"
+"role.cleanerHnS.hint" : "死体を消し去れ"
+"role.cleanerHnS.info" : "死体を消し去る事が可能"
+
+"role.raiderHnS.name" : "レイダー"
+"role.raiderHnS.short" : "斧"
+"role.raiderHnS.hint" : "斧を投げて隠れているハイダーを虐殺せよ"
+"role.raiderHnS.info" : "通常キルの代わりに斧を投げる事が可能\n投げられた斧に当たったプレイヤー全員を殺害可能"
+
 "side.crewmate.name" : "クルーメイト"
 "side.impostor.name" : "インポスター"
 "side.arsonist.name" : "アーソニスト"
@@ -1349,6 +1378,7 @@
 "button.label.clarify" : "透明化"
 "button.label.guess" : "推察"
 "button.label.film" : "撮影"
+"button.label.reload" : "リロード"
 
 "location.cafeteria" : "カフェテリア"
 "location.weapons" : "武器室"
