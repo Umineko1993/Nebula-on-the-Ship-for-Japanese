@@ -1290,6 +1290,7 @@
 "game.endText.nobody.airship" : "誰のものでもない空へ告ぐ"
 "game.endText.hostDisconnected" : "[異常終了]ホスト切断"
 "game.endText.players" : "プレイヤー勝利"
+"game.endText.seeker" : "鬼勝利"
 
 "game.endScreen.detail" : "詳細"
 "game.endScreen.close" : "閉じる"
