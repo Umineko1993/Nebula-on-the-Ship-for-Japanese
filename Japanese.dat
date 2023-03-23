@@ -30,6 +30,7 @@
 
 "config.option.yes" : "はい"
 "config.option.no" : "いいえ"
+"config.option.confirm" : "確認"
 "config.option.keyBinding" : "キー割り当て設定"
 "config.option.keyBinding.restoreDefaults" : "初期設定に戻す"
 "config.option.keyBinding.ability" : "能力を使用"
@@ -81,6 +82,7 @@
 "option.display.percentage.100" : "100%"
 "option.display.infinity" : "∞"
 "option.display.none" : "<color=#606060ff>無し</color>"
+"option.display.random" : "ランダム"
 "option.switch.on" : "<color=#ffffd6ff>オン</color>"
 "option.switch.off" : "<color=#606060ff>オフ</color>"
 
@@ -327,6 +329,9 @@
 "option.hideAndSeekOption.mustDoTasksToWin.info" : "勝利にタスクをする必要があるか"
 
 "game.exile.roleText" : "%PLAYER%の役職は%ROLE%でした"
+
+"metaObject.canSeeInShadow" : "常設"
+"metaObject.canSeeOnlyInShadow" : "シャドウ"
 
 "role.void.name" : "ボイド"
 "role.void.short" : "GM"
@@ -739,17 +744,12 @@
 "role.disturber.name" : "ディスターバー"
 "role.disturber.short" : "妨害"
 "role.disturber.description" : "妨害せよ"
+"role.disturber.hint" : "ポールで妨害せよ"
 "role.disturber.info" : "ポールを設置すると、2本の間に障壁を発生させられるようになる\n障壁は船の電力を奪い、軽微な停電を引き起こす"
 "role.disturber.help.disturb" : "ポール設置\nポールを設置終了後は障壁を発生させます"
 "role.disturber.disturbCoolDown" : "妨害クールダウン"
 "role.disturber.disturbDuration" : "妨害効果時間"
-"role.disturber.disturbBlackOutRate" : "妨害時の停電視野倍率"
-"role.disturber.countOfBarriors" : "バリアの最大設置数"
-"role.disturber.maxPoleDistance" : "ポールの最大距離"
-"role.disturber.ignoreBarriors" : "バリア貫通"
-"role.disturber.ignoreBarriors.constant" : "無効"
-"role.disturber.ignoreBarriors.impostors" : "インポスター全員"
-"role.disturber.ignoreBarriors.onlyMyself" : "設置者のみ"
+"role.disturber.countOfBolts" : "ポール最大設置数"
 
 "role.eraser.name" : "イレイサー"
 "role.eraser.short" : "役消"
@@ -969,6 +969,7 @@
 "role.jester.canInvokeSabotage" : "サボタージュの発生"
 "role.jester.canFixLightsAndComms" : "停電・コミュサボの復旧"
 "role.jester.isGuessable" : "ゲッサーによる推察"
+"role.jester.isGuessable.niceOnly" : "ナイスゲッサーのみの推察"
 "role.jester.ventCoolDown" : "ベントクールダウン"
 "role.jester.ventDuration" : "ベント潜伏時間"
 "role.jester.canDragBodies" : "死体掴みと移動"
@@ -1032,6 +1033,8 @@
 "role.paparazzo.taskText" : "写真撮影 (%DETAIL%)"
 "role.paparazzo.taskTextSubject" : "対象 %CS%/%GS%"
 "role.paparazzo.taskTextDisclosed" : "公開 %CD%/%GD%"
+"role.paparazzo.sharing.confirm" : "本当に共有していいのか？"
+"role.paparazzo.sharing.failed" : "共有時間は終了"
 
 "role.diamondPossessor.name" : "ダイヤの所持者"
 "role.diamondPossessor.short" :"ダイ"
@@ -1074,7 +1077,6 @@
 "role.spectre.clarifyCharge" : "透明化可能回数"
 "role.spectre.clarifyDuration" : "透明化時間"
 "role.spectre.clarifyCoolDown" : "透明化クールダウン"
-"role.spectre.clarifyCoolDown" : "透明化クールダウン"
 "role.spectre.lastImpostorCanGuessSpectre" : "ラストインポスターの推察で妖狐を推察可能か"
 "role.spectre.canFixEmergencySabotage" : "緊急サボタージュを直せるか"
 "role.spectre.canTakeOverSabotageWin" : "妨害勝利乗っ取り"
@@ -1082,6 +1084,11 @@
 "role.spectre.ventCoolDown" : "ベント使用クールダウン"
 "role.spectre.ventDuration" : "ベント潜伏時間"
 "role.spectre.task.fried" : "油揚げを食べる数"
+"role.spectre.task.rancor" : "怨霊メッセージ"
+"role.spectre.task.rancor.phase" : "フェーズ %PHASE%: %DETAIL%"
+"role.spectre.task.rancor.phase.letter" : "手紙を入手"
+"role.spectre.task.rancor.phase.delivery" : "怨霊を%PLAYER%に届ける"
+"role.spectre.task.rancor.phase.statue" : "像に力を蓄える"
 
 "role.vulture.name" : "ヴァルチャー"
 "role.vulture.short" : "禿鷲"
@@ -1227,17 +1234,18 @@
 "role.raiderHnS.hint" : "斧を投げて隠れているハイダーを虐殺せよ"
 "role.raiderHnS.info" : "通常キルの代わりに斧を投げる事が可能\n投げられた斧に当たったプレイヤー全員を殺害可能"
 
-"side.crewmate.name" : "クルーメイト"
-"side.impostor.name" : "インポスター"
+"side.crewmate.name" : "クルーメイト陣営"
+"side.impostor.name" : "インポスター陣営"
 "side.arsonist.name" : "アーソニスト"
 "side.chainShifter.name" : "チェインシフター"
 "side.empiric.name" : "エンパイリック"
-"side.jackal.name" : "ジャッカル"
+"side.jackal.name" : "ジャッカル陣営"
 "side.jester.name" : "ジェスター"
 "side.opportunist.name" : "オポチュニスト"
+"side.paparazzo.name" : "パパラッチ"
+"side.spectre.name" : "妖狐陣営"
 "side.vulture.name" : "ヴァルチャー"
 "side.santaClaus.name" : "サンタクロース陣営"
-"side.investigator.name" : "インヴェスティゲーター"
 "side.gamePlayer.name" : "ゲームプレイヤー"
 "side.void.name" : "ボイド"
 
@@ -1248,6 +1256,107 @@
 "roles.category.lover" : "恋人陣営"
 "roles.category.jackal" : "ジャッカル陣営"
 "roles.category.vulture" : "ヴァルチャー"
+
+"task.hudOverride.name" : "タスクがどこにあるのか分からない"
+
+"perks.perk" : "パーク"
+
+"perks.unselected.name" : "未選択"
+"perks.unselected.flavor" : "パークを選択可能"
+
+"perks.unequip.name" : "パーク解除"
+"perks.unequip.flavor" : "パーク装備を解除"
+
+"perks.intuition.name" : "第六感"
+"perks.intuition.flavor" : "脅威範囲は%$PROP0$%で拡張\n自分にのみ影響"
+
+"perks.tenacity.name" : "不撓不屈"
+"perks.tenacity.flavor" : "クルーが殺される度󠄀に、脅威範囲が%$PROP0$%拡張\n自分にのみ影響"
+
+"perks.lifeline.name" : "ライフライン"
+"perks.lifeline.flavor" : "蘇生をする毎にに$PROP0$チャージされ、蘇生速度が$PROP1$速くなる"
+
+"perks.cooperativeness.name" : "協調"
+"perks.cooperativeness.flavor" : "味方が$PROP0$mの範囲に居る時、タスク進捗度が$PROP1$増加"
+
+"perks.patience.name" : "忍耐"
+"perks.patience.flavor" : "忍び足で行動する方法を知っている\n最終ステージでは、鬼は目印であなたの居場所を知る事が不可能\n能力は連続発動不可能"
+
+"perks.sprint.name" : "疾走"
+"perks.sprint.flavor" : "$PROP1$秒の間、$PROP0$%の加速を行うボタンを持つ\nこの能力は、クールタイムが$PROP2$秒ある"
+
+"perks.tempest.name" : "テンペスト"
+"perks.tempest.flavor" : "加速トラップを設置する事が可能\nトラップは、$PROP2$%の加速を$PROP1$秒間与える\nトラップ作成にかかる時間は$PROP0$秒"
+
+"perks.mayday.name" : "メーデー"
+"perks.mayday.flavor" : "あなたは送信したデータに救難信号を隠した\n潜伏者は、鬼ががどこにいるのか、$PROP1$秒毎に、$PROP0$回まで知る事が可能"
+
+"perks.sheriffGlance.name" : "シェリフの視線"
+"perks.sheriffGlance.flavor" : "鬼の気配察知時に、クルーに注意を促す\nこの能力のクールタイムは$PROP0$秒"
+
+"perks.theWounded.name" : "The Wounded"
+"perks.theWounded.flavor" : "Once revived, you get $PROP0$% more task contribution\nand $PROP1$% higher resurrection efficiency."
+
+"perks.geniusInStorage.name" : "Genius In Storage"
+"perks.geniusInStorage.flavor" : "While you are in Storage or Cargo Bay,\nThe time limit advances by $PROP0$sec.\nThis ability has $PROP1$sec cool time."
+
+"perks.tspResolver.name" : "TSP Resolver"
+"perks.tspResolver.flavor" : "You gain $PROP0$% speed acceleration for $PROP1$sec\nwhen you complete tasks."
+
+"perks.agitation.name" : "Agitation"
+"perks.agitation.flavor" : "You gain $PROP0$% speed acceleration for $PROP1$sec\nevery time you kill."
+
+"perks.creeper.name" : "The Creeper"
+"perks.creeper.flavor" : "You narrow the threat area by $PROP0$%."
+
+"perks.bruteSabotage.name" : "Brute Sabotage"
+"perks.bruteSabotage.flavor" : "You close the door with that strong arm.\nIt takes $PROP1$sec to close, and the closed door reopens after $PROP0$sec.\nThis ability has $PROP2$sec cool time."
+
+"perks.insatiable.name" : "Insatiable"
+"perks.insatiable.flavor" : "Murderous intent does not subside.\nWhen you kill someone,\nit will tell you where the furthest target is. "
+
+"perks.willNotMissYou.name" : "Will Not Miss You"
+"perks.willNotMissYou.flavor" : "Failed kill penalty is reduced by $PROP0$%."
+
+"perks.itWasCrewmate.name" : "It Was Crewmate"
+"perks.itWasCrewmate.flavor" : "You recall the memories to maximized your affinity with the task.\nYou can where hider that finished a task is."
+
+"perks.debilitating.name" : "Debilitating"
+"perks.debilitating.flavor" : "You can know where is the most inactive player.\nIf everyone is enough active, it will dud.\nThis ability has $PROP0$sec cool time."
+
+"perks.ditherInDarkness.name" : "Dither In Darkness"
+"perks.ditherInDarkness.flavor" : "For $PROP0$sec from the start of the game,\nhiders cannot see tasks."
+
+"perks.amnesia.name" : "Amnesia"
+"perks.amnesia.flavor" : "When you kill anyone, hiders cannot see tasks for $PROP0$sec.\nThis ability has $PROP1$sec cool time."
+
+"perks.murderersFame.name" : "Murderer's Fame"
+"perks.murderersFame.flavor" : "Your kill streak will cover the map with threat area for $PROP0$ sec.\nKills within $PROP1$sec count as streak."
+
+"perks.limitlessAlarm.name" : "Limitless Alarm"
+"perks.limitlessAlarm.flavor" : "You gain $PROP0$sec shorter ping interval."
+
+"perks.derelictCorpse.name" : "Derelict Corpse"
+"perks.derelictCorpse.flavor" : "You gain $PROP1$% wider kill range\nif there is any corpse $PROP0$m away."
+
+"perks.role.random.name" : "Random"
+"perks.role.random.flavor" : "A seeker will be selected randomly."
+
+"perks.role.cleaner.name" : "Cleaner"
+"perks.role.cleaner.flavor" : "Ability: $ABILITY$\nYou can clean dead bodies."
+"perks.role.cleaner.ability" : "Unlettered Memorial"
+
+"perks.role.hadar.name" : "Hadar"
+"perks.role.hadar.flavor" : "Ability: $ABILITY$\nYou hide your own threat range and raid from underground.\nWhile you hide, you cannot kill."
+"perks.role.hadar.ability" : "Variable Menace"
+
+"perks.role.raider.name" : "Raider"
+"perks.role.raider.flavor" : "Ability: $ABILITY$\nYou can throw axe.\nYou have $PROP0$% kill cool time and receive $PROP1$% kill penalty every kill."
+"perks.role.raider.ability" : "Cursed Axe"
+
+"perks.role.reaper.name" : "Reaper"
+"perks.role.reaper.flavor" : "Ability: $ABILITY$\nYou can drag dead bodies."
+"perks.role.reaper.ability" : "Bloody Trail"
 
 "game.message.countDown" : "ゲーム開始まであと %COUNT% 秒"
 "game.message.start" : "ゲーム開始"
@@ -1316,8 +1425,6 @@
 "status.misfire" : "誤殺"
 "status.slapped" : "悪い子"
 "status.withered" : "枯死"
-
-"investigators.ui.title" : "正体は何だ?"
 
 "button.label.admin" : "アドミン"
 "button.label.agent" : "エージェント"
