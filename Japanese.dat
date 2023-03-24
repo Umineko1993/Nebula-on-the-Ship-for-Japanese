@@ -1274,13 +1274,13 @@
 "perks.tenacity.flavor" : "クルーが殺される度󠄀に、脅威範囲が%$PROP0$%拡張\n自分にのみ影響"
 
 "perks.lifeline.name" : "ライフライン"
-"perks.lifeline.flavor" : "蘇生をする毎にに$PROP0$チャージされ、蘇生速度が$PROP1$速くなる"
+"perks.lifeline.flavor" : "蘇生をする能力を$PROP0$個補充され、蘇生速度が$PROP1$の分速くなる"
 
 "perks.cooperativeness.name" : "協調"
-"perks.cooperativeness.flavor" : "味方が$PROP0$mの範囲に居る時、タスク進捗度が$PROP1$増加"
+"perks.cooperativeness.flavor" : "味方が一人でも$PROP0$mの範囲に居る時、タスク進捗度が$PROP1$増加"
 
-"perks.patience.name" : "忍耐"
-"perks.patience.flavor" : "忍び足で行動する方法を知っている\n最終ステージでは、鬼は目印であなたの居場所を知る事が不可能\n能力は連続発動不可能"
+"perks.patience.name" : "不動如山"
+"perks.patience.flavor" : "忍び足で行動する方法を知っている\n最終盤面では、鬼へのあなたの居場所の通知を無効化する\n能力は連続発動不可能"
 
 "perks.sprint.name" : "疾走"
 "perks.sprint.flavor" : "$PROP1$秒の間、$PROP0$%の加速を行うボタンを持つ\nこの能力は、クールタイムが$PROP2$秒ある"
@@ -1294,47 +1294,47 @@
 "perks.sheriffGlance.name" : "シェリフの視線"
 "perks.sheriffGlance.flavor" : "鬼の気配察知時に、クルーに注意を促す\nこの能力のクールタイムは$PROP0$秒"
 
-"perks.theWounded.name" : "The Wounded"
-"perks.theWounded.flavor" : "Once revived, you get $PROP0$% more task contribution\nand $PROP1$% higher resurrection efficiency."
+"perks.theWounded.name" : "手負いの兵"
+"perks.theWounded.flavor" : "復活すると、タスク貢献度が$PROP0$増加し、復活する時間が$PROP1$の分短くなる。"
 
-"perks.geniusInStorage.name" : "Genius In Storage"
-"perks.geniusInStorage.flavor" : "While you are in Storage or Cargo Bay,\nThe time limit advances by $PROP0$sec.\nThis ability has $PROP1$sec cool time."
+"perks.geniusInStorage.name" : "ストレージに潜む賢才"
+"perks.geniusInStorage.flavor" : "ストレージや貨物室に居る時に、制限時間が$PROP0$秒進む\nこの能力のクールタイムは$PROP1$秒"
 
-"perks.tspResolver.name" : "TSP Resolver"
-"perks.tspResolver.flavor" : "You gain $PROP0$% speed acceleration for $PROP1$sec\nwhen you complete tasks."
+"perks.tspResolver.name" : "巡回員の究極解"
+"perks.tspResolver.flavor" : "タスクを完了すると、$PROP1$%秒の間$PROP0$の早さを得る"
 
-"perks.agitation.name" : "Agitation"
-"perks.agitation.flavor" : "You gain $PROP0$% speed acceleration for $PROP1$sec\nevery time you kill."
+"perks.agitation.name" : "血戯え"
+"perks.agitation.flavor" : "殺害する度󠄀に$PROP1$秒の間%の$PROP0$の早さを得る"
 
-"perks.creeper.name" : "The Creeper"
-"perks.creeper.flavor" : "You narrow the threat area by $PROP0$%."
+"perks.creeper.name" : "忍び寄る怪異"
+"perks.creeper.flavor" : "脅威範囲を$PROP0$%だけ絞り込む\n常時発動"
 
-"perks.bruteSabotage.name" : "Brute Sabotage"
-"perks.bruteSabotage.flavor" : "You close the door with that strong arm.\nIt takes $PROP1$sec to close, and the closed door reopens after $PROP0$sec.\nThis ability has $PROP2$sec cool time."
+"perks.bruteSabotage.name" : "剛腕な妨害"
+"perks.bruteSabotage.flavor" : "その強靭な腕力でドアを閉める\n閉じるのに$PROP1$秒かかり、閉じたドアは$PROP0$秒後に再び開く\nクールタイムは$PROP2$秒"
 
-"perks.insatiable.name" : "Insatiable"
-"perks.insatiable.flavor" : "Murderous intent does not subside.\nWhen you kill someone,\nit will tell you where the furthest target is. "
+"perks.insatiable.name" : "飽き足らぬ殺意"
+"perks.insatiable.flavor" : "殺意が収らない\殺害すると、一番遠い標的の位置が分かる"
 
-"perks.willNotMissYou.name" : "Will Not Miss You"
-"perks.willNotMissYou.flavor" : "Failed kill penalty is reduced by $PROP0$%."
+"perks.willNotMissYou.name" : "執念"
+"perks.willNotMissYou.flavor" : "失敗した殺害ペナルティーを$PROP0$%減少させる"
 
-"perks.itWasCrewmate.name" : "It Was Crewmate"
-"perks.itWasCrewmate.flavor" : "You recall the memories to maximized your affinity with the task.\nYou can where hider that finished a task is."
+"perks.itWasCrewmate.name" : "手に残る記憶"
+"perks.itWasCrewmate.flavor" : "かつての記憶を呼び起こし、タスクとの親和性を高めた\nタスクをこなしたプレイヤーの位置を知る事が可能"
 
-"perks.debilitating.name" : "Debilitating"
-"perks.debilitating.flavor" : "You can know where is the most inactive player.\nIf everyone is enough active, it will dud.\nThis ability has $PROP0$sec cool time."
+"perks.debilitating.name" : "削弱の計略"
+"perks.debilitating.flavor" : "最も行動していないプレイヤーがどこにいるかを知る事が可能\nみんなが十分に行動していれば、不発になる\nクールタイムは$PROP0$秒"
 
-"perks.ditherInDarkness.name" : "Dither In Darkness"
-"perks.ditherInDarkness.flavor" : "For $PROP0$sec from the start of the game,\nhiders cannot see tasks."
+"perks.ditherInDarkness.name" : "冥闇の呪"
+"perks.ditherInDarkness.flavor" : "ゲーム開始から$PROP0$秒の間、タスクを確認不可"
 
-"perks.amnesia.name" : "Amnesia"
-"perks.amnesia.flavor" : "When you kill anyone, hiders cannot see tasks for $PROP0$sec.\nThis ability has $PROP1$sec cool time."
+"perks.amnesia.name" : "健忘症"
+"perks.amnesia.flavor" : "誰かを殺害すると、PROP0$秒の間、クルーはタスクを確認出来ない\nクールタイムは$PROP1$秒"
 
-"perks.murderersFame.name" : "Murderer's Fame"
-"perks.murderersFame.flavor" : "Your kill streak will cover the map with threat area for $PROP0$ sec.\nKills within $PROP1$sec count as streak."
+"perks.murderersFame.name" : "一夜大尽"
+"perks.murderersFame.flavor" : "連続殺害する事で、$PROP0$秒の間、脅威範囲が拡大する\n$PROP1$秒以内の殺害も連続殺害としてカウントされる"
 
-"perks.limitlessAlarm.name" : "Limitless Alarm"
-"perks.limitlessAlarm.flavor" : "You gain $PROP0$sec shorter ping interval."
+"perks.limitlessAlarm.name" : "鳴りやまぬ警鐘"
+"perks.limitlessAlarm.flavor" : "最終盤面の通知の間隔を$PROP0$秒だけ短縮する"
 
 "perks.derelictCorpse.name" : "Derelict Corpse"
 "perks.derelictCorpse.flavor" : "You gain $PROP1$% wider kill range\nif there is any corpse $PROP0$m away."
