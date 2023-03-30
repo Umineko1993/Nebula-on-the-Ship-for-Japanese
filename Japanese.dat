@@ -1556,7 +1556,7 @@
 "designers.options.behindHat" : "帽子の裏側"
 "designers.parts.idle" : "通常"
 "designers.parts.idleFlip" : "通常(左向き)"
-"designers.parts.back" : "通常背面"
+"designers.parts.back" : "通常(背面)"
 "designers.parts.backFlip" : "通常(背面)(左向き)"
 "designers.parts.move" : "移動"
 "designers.parts.moveFlip" : "移動(左向き)"
