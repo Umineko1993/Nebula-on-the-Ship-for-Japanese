@@ -903,6 +903,12 @@
 "role.jester.isGuessable" : "Is Guessable"
 "role.jester.isGuessable.niceOnly" : "Nice Only"
 
+"role.lordLloyd.name" : "L. Lloyd"
+"role.lordLloyd.short" : "L"
+"role.lordLloyd.description" : ""
+"role.lordLloyd.hint" : ""
+"role.lordLloyd.info" : ""
+
 "role.opportunist.name" : "Opportunist"
 "role.opportunist.short" : "O"
 "role.opportunist.description" : "Wait for Opportunity"
@@ -991,6 +997,7 @@
 "role.spectre.occupyDoubleRoleCount" : "Occupy Double Role Count"
 "role.spectre.spectreTask" : "Spectre Task Mode"
 "role.spectre.spectreTask.eatTheFried" : "The Fried Task"
+"role.spectre.spectreTask.deliveryRancor" : "Rancor Task"
 "role.spectre.numOfTheFriedRequiredToWin" : "Num Of The Fried Required To Win"
 "role.spectre.clarifyCharge" : "Clarify Charge"
 "role.spectre.clarifyDuration" : "Clarify Duration"
@@ -1007,6 +1014,7 @@
 "role.spectre.task.rancor.phase.letter" : "Get a Letter"
 "role.spectre.task.rancor.phase.delivery" : "Delivery the Grudge to %PLAYER%"
 "role.spectre.task.rancor.phase.statue" : "Store Power in Statues"
+"role.spectre.task.rancor.player" : "Exorcize Spectres"
 
 "role.immoralist.name" : "Immoralist"
 "role.immoralist.short" : "I"
@@ -1107,13 +1115,6 @@
 "role.player.description" : "The Game Is About To Start"
 "role.player.info" : "You're game player."
 
-"role.hadar.name" : "Hadar"
-"role.hadar.short" : "H"
-"role.hadar.hint" : "Frighten Escapees."
-"role.hadar.damageRadius" : "Damage Radius"
-"role.hadar.damageLevel" : "Damage Level"
-"role.hadar.reappearance" : "Reappear Cool Down"
-
 "role.metaRole.name" : "Free Play"
 "role.metaRole.info" : "You can measure the distance.\n\n - 1 : Set origin at the current position\n - 2 : Open roles menu\n - ESC : Close roles menu"
 
@@ -1154,6 +1155,7 @@
 "side.empiric.name" : "Empiric"
 "side.jackal.name" : "Jackal"
 "side.jester.name" : "Jester"
+"side.lordLloyd.name" : "Clan Of Grey"
 "side.opportunist.name" : "Opportunist"
 "side.paparazzo.name" : "Paparazzo"
 "side.spectre.name" : "Spectre"
@@ -1334,6 +1336,7 @@
 "status.misfire" : "Misfire"
 "status.slapped" : "Slapped"
 "status.withered" : "Withered"
+"status.assassinated" : "Assassinated"
 
 "investigators.ui.title" : "What Is The Identity?"
 
@@ -1510,6 +1513,7 @@
 "help.index.modifiers" : "Modifiers"
 "help.index.options" : "Options"
 "help.index.help" : "Help"
+
 "help.contents" : "Contents"
 "help.contents.general" : "General"
 "help.contents.roles" : "Roles"
