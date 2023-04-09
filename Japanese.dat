@@ -960,7 +960,7 @@
 
 "role.lordLloyd.name" : "ロイド卿"
 "role.lordLloyd.short" : "ロイ"
-"role.lordLloyd.description" : ""
+"role.lordLloyd.description" : "赤ずきんを着るのは誰だ?"
 "role.lordLloyd.hint" : "暗殺を計画せよ"
 "role.lordLloyd.info" : ""
 "role.lordLloyd.canWinWithFollowers" : "灰の一族と一緒に勝利出来るか"
@@ -1229,7 +1229,6 @@
 "role.hider.hint" : "隠れて最後まで生き残れ"
 "role.hider.info" : "隠れて最後まで生き残れ"
 
-"role.hadar.name" : "ハダル"
 "role.hadarHnS.name" : "ハダル"
 "role.hadarHnS.short" : "ハダ"
 "role.hadarHnS.hint" : "逃走を脅かせ"
@@ -1504,7 +1503,6 @@
 "button.label.void" : "GM"
 "button.label.warp" : "ワープ"
 "button.label.weep" : "叫喚"
-
 
 "location.cafeteria" : "カフェテリア"
 "location.weapons" : "武器室"
