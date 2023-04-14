@@ -960,7 +960,7 @@
 
 "role.lordLloyd.name" : "ロイド卿"
 "role.lordLloyd.short" : "ロイ"
-"role.lordLloyd.description" : "赤ずきんを着るのは誰だ?"
+"role.lordLloyd.description" : "赤いずきんを着ているのは誰だ?"
 "role.lordLloyd.hint" : "暗殺を計画せよ"
 "role.lordLloyd.info" : ""
 "role.lordLloyd.canWinWithFollowers" : "灰の一族と一緒に勝利出来るか"
