@@ -4,7 +4,7 @@ https://github.com/Dolly1016/Nebula/ のMODを日本語化しています
 
 導入の際は、Modフォルダ内のLanguageフォルダ内に各自保存して下さい\
 
-**Languageフォルダが無い場合は、Among Us.exeの実行ファイルがあるディレクトリにLanguageフォルダを作成して下さい\**
+<big>Languageフォルダが無い場合は、Among Us.exeの実行ファイルがあるディレクトリにLanguageフォルダを作成して下さい\</big>
 
 翻訳を実施する場合は、Japanese.datをLanguageフォルダ内に保存して下さい\
 .datファイルはテキストエディタにて編集可能です\
