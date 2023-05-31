@@ -10,3 +10,5 @@ Languageフォルダが無い場合は、Among Us.exeの実行ファイルがあ
 何か翻訳内容等で問い合わせが有る場合は、作者まで連絡をお願い致します
 
 作者Twitter : https://twitter.com/Umineko19930417
+
+開発環境: Windows 11 Pro Version 22H2 (OS Build: 22621.1778)
