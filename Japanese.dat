@@ -1,4 +1,4 @@
-# 哘雅楽乃作成日本語言語ファイル v6
+# 哘雅楽乃作成日本語言語ファイル v7
 # ゲームモード
 
 "gamemode.standard" : "通常"
@@ -57,7 +57,7 @@
 # "preset.dialog.load" : "プリセットが正常に読み込に成功"
 # "preset.dialog.loadFailed" : "プリセットの読み込みに失敗"
 
-# チーム
+# 陣営
 
 "teams.crewmate" : "クルーメイト陣営"
 "teams.impostor" : "インポスター陣営"
