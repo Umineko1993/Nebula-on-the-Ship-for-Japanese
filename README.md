@@ -10,8 +10,7 @@ Languageフォルダが無い場合は、Among Us.exeの実行ファイルがあ
 
 [作者Twitter](https://twitter.com/Umineko19930417)
 
-開発環境:<br>
-開発環境･動作確認環境:
+開発環境･動作確認環境:<br>
 OS : Windows 11 Pro 64bit OS<br>
 OS Version : 22H2<br>
 OS Build 10.0.22621.2134<br>
