@@ -13,6 +13,6 @@ Languageフォルダが無い場合は、Among Us.exeの実行ファイルがあ
 開発環境･動作確認環境:<br>
 OS : Windows 11 Pro 64bit OS<br>
 OS Version : 22H2<br>
-OS Build 10.0.22621.2134<br>
+OS Build 10.0.22621.2215<br>
 Game Version: v2023.7.12s ( build num: 3365 )<br>
 (Windows以外のOS・Windows 10以下・32bit OS等の開発環境との乖離が有る場合は当方が構築不可の為、サポートは出来ませんのでご了承下さい)
