@@ -1,4 +1,4 @@
-# 哘雅楽乃作成日本語言語ファイル v16
+# 哘雅楽乃作成日本語言語ファイル v18
 
 # タイトル
 
@@ -30,7 +30,7 @@
 "options.tab.impostor" : "[インポスター]役職"
 "options.tab.neutral" : "[第三陣営]役職"
 # "options.tab.ghost" : "[幽霊]役職"
-# "options.tab.modifier" : "[追加役職]"
+"options.tab.modifier" : "[付属属性]"
 
 "options.assignment" : "割り当て設定"
 "options.assignment.detail" : "役割分担の数について"
@@ -50,6 +50,8 @@
 "options.map.spawnMethod.selective" : "選択式"
 "options.map.spawnMethod.random" : "ランダム"
 "options.map.spawnCandidates" : "スポーン位置候補の数"
+"options.map.silentVents" : "ベント開閉を静かにするか"
+"options.map.silentVents.hint" : "ベント開閉を静かにするか"
 
 "options.role.count" : "割当人数"
 # "options.role.count.info" : "割り当てられる人数を設定"
@@ -57,6 +59,24 @@
 # "options.role.chance.info" : "割る当てられる確率を設定"
 "options.role.secondaryChance" : "2人目~"
 # "options.role.secondaryChance.info" : "2人目移行の割り当てられる確率を設定"
+"options.role.count.short" : "割り当て"
+
+"options.killCoolDown.type.immediate" : "即時"
+"options.killCoolDown.type.relative" : "相対的"
+
+# 役職
+
+"role.general.ventOption" : "ベント設定"
+"role.general.ventCoolDown" : "クールダウン"
+"role.general.ventCoolDown.short" : "クール"
+"role.general.ventDuration" : "間隔"
+"role.general.ventDuration.short" : "間隔"
+"role.general.ventUses" : "最大人数"
+"role.general.ventUses.short" : "人数"
+"role.general.common" : "[共通]"
+
+"role.guesser.numOfGuess" : "推察人数"
+"options.role.guesser.detail" : "ゲッサーは、役割を推理する事で、会議にプレーヤーを撃つ事が可能<br>推察が外れた場合は、ゲッサー本人が死亡する"
 
 # クルーメイト役職
 
@@ -80,6 +100,11 @@
 "options.role.bait.detail" : "自身が殺害されると、殺人者は即座にレポートさせられます"
 "options.role.bait.showKillFlash" : "キルフラッシュが見れるか"
 # "options.role.bait.showKillFlash.hint" : "キルフラッシュが見れるか"
+
+"role.niceGuesser.name" : "ナイスゲッサー"
+# "role.niceGuesser.short" : "良推察者"
+"role.niceGuesser.blurb" : "推察して撃て"
+"options.role.niceGuesser.detail" : "ゲッサーは、役割を推理する事で、会議にプレーヤーを撃つ事が可能<br>推察が外れた場合は、ゲッサー本人が死亡する"
 
 "role.madmate.name" : "マッドメイト(狂人)"
 # "role.madmate.short" : "狂人"
@@ -109,12 +134,21 @@
 "options.role.phosphorus.lampDuration" : "明るさの距離"
 # "options.role.phosphorus.lampDuration.hint" : "明るさの距離"
 
+"role.seer.name" : "シーア(占い師)"
+# "role.seer.short" : "占い師"
+"role.seer.blurb" : "プレイヤーの死ぬのタイミングが分かる"
+"options.role.seer.detail" : "占い師は幽霊を見る事が出来、犠牲者がどこで死んだかを知る事が可能"
+"options.role.seer.ghostDuration" : "幽霊の存続時間"
+# "options.role.seer.ghostDuration.hint" : "幽霊の存続時間"
+
 "role.sheriff.name" : "シェリフ(保安官)"
 # "role.sheriff.short" : "保安官"
 "role.sheriff.blurb" : "インポスターを撃ち抜け"
 "options.role.sheriff.detail" : "殺害可能なクルーメイトです<br>クルーを誤射すると代わりに自身が死亡します"
 "options.role.sheriff.canKillMadmate" : "殺害可能：マッドメイト"
 # "options.role.sheriff.canKillMadmate.info" : "マッドメイトを殺害可能にするかの設定"
+"options.role.sheriff.killCoolDown" : "キルクールダウン"
+# "options.role.sheriff.killCoolDown.hint" : "キルクールダウン"
 
 # インポスター役職
 
@@ -139,6 +173,11 @@
 "options.role.cleaner.cleanCoolDown" : "死体消去のクールダウン"
 # "options.role.cleaner.cleanCoolDown.hint" : "死体消去のクールダウン"
 
+"role.evilGuesser.name" : "イビルゲッサー"
+# "role.evilGuesser.name" : "悪推察者"
+"role.evilGuesser.blurb" : "推察して撃て"
+"options.role.evilGuesser.detail" : "ゲッサーは、役割を推理する事で、会議にプレーヤーを撃つ事が可能<br>推察が外れた場合は、ゲッサー本人が死亡する"
+
 "role.morphing.name" : "モーフィング"
 # "role.morphing.short" : "擬態師"
 "role.morphing.blurb" : "身を隠せ"
@@ -149,17 +188,62 @@
 # "options.role.morphing.morphCoolDown.hint" : "擬態出来るまでの時間の設定"
 "options.role.morphing.morphDuration" : "擬態の有効時間"
 # "options.role.morphing.morphDuration.hint" : "擬態が継続する時間設の定"
+"options.role.morphing.loseSampleOnMeeting" : "議会でサンプルを失うか"
+# "options.role.morphing.loseSampleOnMeeting.hint" : "議会でサンプルを失うか"
 
 "role.painter.name" : "ペインター"
 # "role.painter.short" : "塗師"
 "role.painter.blurb" : "もう誰もあなたを知らない"
-"options.role.painter.detail" : "プレイヤーの見た目を変える事が可能<br>見た目を変えられたプレイヤーは、自身の見た目が変わっている事に気づけません"
+"options.role.painter.detail" : "プレイヤーの見た目を変える事が可能。見た目を変えられたプレイヤーは、<br>自身の見た目が変わっている事に気づけません"
 "options.role.painter.sampleCoolDown" : "サンプル取得クールダウン"
 # "options.role.painter.sampleCoolDown.hint" : "サンプルを取得出来るまでの時間の設定"
 "options.role.painter.paintCoolDown" : "塗り替えクールダウン"
 # "options.role.painter.paintCoolDown.hint" : "塗り替え出来るまでの時間の設定"
+"options.role.painter.loseSampleOnMeeting" : "議会でサンプルを失うか"
+# "options.role.painter.loseSampleOnMeeting.hint" : "議会でサンプルを失うか"
+
+"role.reaper.name" : "リーパー"
+# "role.reaper.short" : "リーパー"
+"role.reaper.blurb" : "クルーメイトに対して殺害し惑わせろ"
+"options.role.reaper.detail" : "リーパーは死体を運ぶ事が可能"
+
+"role.sniper.name" : "スナイパー(狙撃兵)"
+# "role.sniper.short" : "狙撃兵"
+"role.sniper.blurb" : "狙撃しろ"
+"options.role.sniper.detail" : "スナイパーは遠距離から殺害可能"
+"options.role.sniper.snipeCoolDown" : "狙撃クールダウン"
+# "options.role.sniper.snipeCoolDown.hint" : "狙撃クールダウン"
+"options.role.sniper.shotSize" : "弾の大きさ"
+# "options.role.sniper.shotSize.hint" : "弾の大きさ"
+"options.role.sniper.shotEffectiveRange" : "有効射程距離"
+# "options.role.sniper.shotEffectiveRange.hint" : "有効射程距離"
+"options.role.sniper.shotNoticeRange" : "射撃音が伝わる範囲"
+# "options.role.sniper.shotNoticeRange.hint" : "射撃音が伝わる範囲"
 
 # 第三陣営役職
+
+"role.jackal.name" : "ジャッカル"
+# "role.jackal.short" : "ジャッカル"
+"role.jackal.blurb" : "全員を殺害しろ"
+"options.role.jackal.detail" : "ジャッカルは勝利の為にプレイヤーを全滅させる必要がある<br>ジャッカル追放はインポスターとクルーメイトの共通の目標である"
+"options.role.jackal.killCoolDown" : "キルクールダウン"
+# "options.role.jackal.killCoolDown.hint" : "キルクールダウン"
+"options.role.jackal.canCreateSidekick" : "サイドキックを生成出来るか"
+# "options.role.jackal.canCreateSidekick.hint" : "サイドキックを生成出来るか"
+"options.role.jackal.numOfKillingToCreateSidekick" : "サイドキックを生成するのに必要な殺害数"
+# "options.role.jackal.numOfKillingToCreateSidekick.hint" : "サイドキックを生成するのに必要な殺害数"
+
+"role.sidekick.name" : "サイドキック"
+# "role.sidekick.name.short" : "サイドキック"
+"options.role.jackal.sidekick.detail" : "サイドキックはジャッカルのサポートをしろ<br>ジャッカルの死後、サイドキックはジャッカルに昇格する"
+"options.role.jackal.sidekick.canKill" : "殺害可能か"
+# "options.role.jackal.sidekick.canKill.hint" : "殺害可能か"
+"options.role.jackal.sidekick.killCoolDown" : "キルクールダウン"
+# "options.role.jackal.sidekick.killCoolDown.hint" : "キルクールダウン"
+"options.role.jackal.sidekick.isModifier" : "付与属性にするか"
+# "options.role.jackal.sidekick.isModifier.hint" : "付与属性にするか"
+"options.role.jackal.sidekick.canCreateSidekickChainly" : "連鎖的にサイドキックを生成可能か"
+# "options.role.jackal.sidekick.canCreateSidekickChainly.hint" : "連鎖的にサイドキックを生成可能か"
 
 "role.jester.name" : "ジェスター(てるてる)"
 # "role.jester.short" : "てるてる"
@@ -177,6 +261,13 @@
 "options.role.vulture.numToTheEatenToWin" : "勝利に必要な捕食数"
 # "options.role.vulture.numToTheEatenToWin.hint" : "勝利に必要な捕食数の設定"
 
+# 付与属性
+"role.guesser.name" : "ゲッサー(準備中)"
+# "role.guesser.name.short" : "ゲッサー"
+
+"role.metaRole.name" : "(準備中)"
+"role.metaRole.name.short" : "(準備中)"
+
 # プリセット
 
 # "preset.save" : "現在の設定を保存"
@@ -184,12 +275,16 @@
 # "preset.dialog.load" : "プリセットが正常に読み込に成功"
 # "preset.dialog.loadFailed" : "プリセットの読み込みに失敗"
 
+# 付与属性
+
+"role.metaRole.ui.roles" : "役職"
 # 陣営
 
 "teams.crewmate" : "クルーメイト陣営"
 "teams.impostor" : "インポスター陣営"
 "teams.jester" : "ジェスター"
 "teams.vulture" : "ヴァルチャー"
+# "teams.jackal" : "ジャッカル陣営"
 
 # 場所
 
@@ -267,16 +362,23 @@
 
 # ボタン
 
+"button.label.agent" : "エージェント"
 "button.label.camo" : "偽装"
 "button.label.clean" : "清掃"
 "button.label.drag" : " 引っ張り"
 "button.label.eat" : "捕食"
+"button.label.equip" : "装備"
+"button.label.kill" : "殺害"
 "button.label.lantern" : "ランタン"
 "button.label.morph" : "擬態"
+"button.label.operate" : "操作"
 "button.label.place" : "場所"
 "button.label.release" : "リリース"
 "button.label.revive" : "生き返り"
 "button.label.sample" : "サンプル"
+"button.label.snipe" : "狙撃"
+"button.label.sidekick" : "サイドキック"
+"button.label.unequip" : "収納"
 
 # ゲーム
 
@@ -302,10 +404,20 @@
 
 # 終了画面
 
-"end.crewmate" : "クルーメイト勝利"
-"end.impostor" : "インポスター勝利"
+"end.crewmate" : "クルーメイト陣営勝利"
+"end.impostor" : "インポスター陣営勝利"
 "end.jester" : "ジェスター勝利"
 "end.vulture" : "ヴァルチャー勝利"
+# "end.jackal" : "ジャッカル陣営勝利"
+
+# ヘルプ
+
+"help.tabs.myInfo" : "自分の役職"
+"help.tabs.roles" : "役職"
+"help.tabs.modifiers" : "付与属性"
+"help.tabs.options" : "設定"
+"help.tabs.slides" : "スライド"
+"help.slides.share" : "共有"
 
 # 色翻訳
 
