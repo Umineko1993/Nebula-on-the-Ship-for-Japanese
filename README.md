@@ -1,6 +1,16 @@
 # Nebula on the Ship for Japanese
 [Nebula on the Ship](https://github.com/Dolly1016/Nebula/)のMODを日本語化しています
 
+導入方法<br>
+
+Ex3以降<br>
+最初にAmong Us.exeがあるディレクトリにLanguageフォルダをが有る場合は削除して下さい<br>
+AddonsフォルダがAmong Us.exeがあるディレクトリにある場合は、その中にJapanese.zipを導入して下さい<br>
+Addonsフォルダが無い場合は、一旦Among Us.exeを起動して、タイトル画面が表示されたらAmong Us.exeを終了して下さい<br>
+Among Us.exeがあるディレクトリにAddonsフォルダが自動生成されている筈なので、Addonsフォルダ内にJapanese.zipを導入して下さい<br>
+Among Us.exeを起動してNebulaが起動したにも関わらずにAddonsフォルダが無い場合は、ModとAmong Usゲーム本体のバージョンが適切である事を確認をして、Among Us.exeがあるディレクトリにAddonsフォルダを作成して、Addonsフォルダ内にJapanese.zipを導入して下さい<br>
+
+Ex2以下の場合<br>
 導入の際は、Modフォルダ内のLanguageフォルダ内に各自保存して下さい<br>
 Languageフォルダが無い場合は、Among Us.exeの実行ファイルがあるディレクトリにLanguageフォルダを作成して下さい<br>
 翻訳を実施する場合は、Japanese.datをLanguageフォルダ内に保存して下さい<br>
